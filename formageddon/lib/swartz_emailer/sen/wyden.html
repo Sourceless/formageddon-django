@@ -1,0 +1,2137 @@
+<base href="http://www.wyden.senate.gov/contact/"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 	
+	
+	
+	
+
+				
+		
+		
+		
+		
+		
+		
+			
+				
+			
+		
+
+		
+	
+		
+		
+			
+		
+		
+		
+		
+		
+			
+				
+			
+		
+		
+		
+		
+		 
+		 
+		 	
+			
+		 
+		
+		 
+		
+		
+		
+        
+		
+		
+		
+
+
+
+ 
+
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+
+
+
+ 
+
+
+
+	 	
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+	 
+
+
+
+
+
+	
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+
+    <head><script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta property="twitter:account_id" content="250188760" />
+                
+        <title>Contact | U.S. Senator Ron Wyden</title>
+
+        
+        
+        
+        
+        
+        
+        
+        
+       
+             
+                  
+              
+             
+         
+             
+            
+            
+            <script>
+            var application_webroot = "http://www.wyden.senate.gov/";
+            var site_webroot = application_webroot;
+            </script>
+        
+        
+                
+          <meta name="twitter:card" content="summary">
+          <meta name="twitter:site" content="@RonWyden">
+            <meta name="twitter:creator" content="@RonWyden">
+         
+            <meta name="twitter:url" content="http://www.wyden.senate.gov/contact">
+            
+            
+         
+            
+	
+
+                
+        
+        
+        
+            <meta property="og:image" content="http://www.wyden.senate.gov/images/global/share-banner.jpg" />
+        
+        
+        
+        
+            
+        
+            
+        
+            <meta property="og:title" content="Contact | Senator Ron Wyden" />
+            <meta name="twitter:title" content="Contact">
+            
+        
+        
+            <meta property="og:description" content="Senator Ron Wyden | Senator for Oregon"/>
+            <meta name="twitter:description" content="Senator Ron Wyden | Senator for Oregon"/>
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="shortcut icon" href="http://www.wyden.senate.gov/favicon.ico">
+        <link rel="apple-touch-icon" href="http://www.wyden.senate.gov/apple-touch-icon.png">
+        
+        <script src="http://www.wyden.senate.gov/scripts/libs/modernizr-1.7.min.js?"></script>
+        <script src="http://www.wyden.senate.gov/scripts/libs/selectivizr-min.js?"></script>
+        <script src="http://www.wyden.senate.gov/scripts/orientation.js?"></script>
+        
+        
+        
+        <script src="http://www.wyden.senate.gov/scripts/libs/mootools.js?"></script>
+        <script src="http://www.wyden.senate.gov/scripts/libs/mootools-more.js?"></script>
+        <!--[if IE ]><script src="http://www.wyden.senate.gov/scripts/libs/flexie.min.js?"></script><![endif]-->
+        <script src="http://www.wyden.senate.gov/scripts/libs/Fx.Tween.CSS3-min.js?"></script>
+        <script src="http://www.wyden.senate.gov/scripts/libs/global-min.js?"></script>
+               
+        
+        <script src="http://www.wyden.senate.gov/scripts/Issues_Lookup_Controller-min.js?" type="text/javascript" charset="utf-8"></script>
+        <script src="http://www.wyden.senate.gov/scripts/jwplayer.js?" type="text/javascript" charset="utf-8"></script>
+        
+        
+            
+        
+        <script>
+        //<![CDATA[
+            var application_webroot = "http://www.wyden.senate.gov/";
+            var site_webroot = application_webroot;
+            
+                var application_friendly_urls = true;
+            
+            var enable_friendly_urls = application_friendly_urls;
+            window.top['site_path'] = "18a439db-4040-f985-52cd-9d0bd1f1eb84";
+
+            var application = {
+                "webroot": "http://www.wyden.senate.gov/",
+                "config": {
+                    "tinymce": {
+                        "plugins": {
+                            "selectvideo": {
+                                "player": "jwplayer", // should be set to "legacy" or "jwplayer" currently
+                                "youtube": true, // set to true to write the youtube tags for youtube videos
+                                "width": 560,
+                                "height": 315,
+                                "tracking": true
+                            }
+                        }
+                    }
+                }
+            };
+            
+            var yt_players = [];
+            function onYouTubePlayerAPIReady() {
+                $each(yt_players, function(video) {
+                    video.target.innerHTML = "";
+                    video.player = new YT.Player(video.target, {
+                        width: video.width,
+                        height: video.height,
+                        videoId: video.id,
+                        events: {
+                            'onStateChange': function(event) {
+                                if (event.data == YT.PlayerState.PLAYING) {
+                                    _gaq.push(['_trackEvent', 'Video', 'Play', video.title ]);
+                                } /*else if (event.data == YT.PlayerState.PAUSED) {
+                                    _gaq.push(['_trackEvent', 'Video', 'Pause', video.title ]);
+                                }*/ else if (event.data == YT.PlayerState.ENDED) {
+                                    _gaq.push(['_trackEvent', 'Video', 'Complete', video.title ]);
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+
+            function returnfalse() { return false }
+
+        //]]>
+        </script>
+
+
+        
+        
+        
+            
+                
+                
+                    
+                
+                <script src="http://www.wyden.senate.gov/scripts/formcheck/formcheck-ce.js?"></script>
+            
+                
+                
+                    
+                
+                <script src="http://www.wyden.senate.gov/scripts/new-contact.js?"></script>
+            
+        
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-31002578-1']);
+          _gaq.push(['_setDomainName', 'wyden.senate.gov']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+
+        <link rel="stylesheet" type="text/css" media="print" href="http://www.wyden.senate.gov/styles/bin/print.css" />
+        <!--[if !IE 6]><!-->
+            <link rel="stylesheet" href="http://www.wyden.senate.gov/styles/global.css?v=2&amp;">
+        <!--<![endif]-->
+        
+        <!--[if lte IE 6]>
+            <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
+        <![endif]-->
+
+        
+         
+    
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['email_header']=true;
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['mailing_zipCode_header']=true;
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['fname_header']=true;
+/* ]]> */</script>
+
+<script type="text/javascript">/* <![CDATA[ */
+	if (window.ColdFusion) ColdFusion.required['lname_header']=true;
+/* ]]> */</script>
+<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+        //form element email required check
+        if( _CF_hasValue(_CF_this['email'], "TEXT", false ) )
+        {
+            //form element email 'EMAIL' validation checks
+            if (!_CF_checkEmail(_CF_this['email'].value, true))
+            {
+                _CF_onError(_CF_this, "email", _CF_this['email'].value, "Please enter a valid email address.");
+                _CF_error_exists = true;
+            }
+
+        }else {
+            _CF_onError(_CF_this, "email", _CF_this['email'].value, "Please enter a valid email address.");
+            _CF_error_exists = true;
+        }
+
+        //form element mailing_zipCode required check
+        if( _CF_hasValue(_CF_this['mailing_zipCode'], "TEXT", false ) )
+        {
+            //form element mailing_zipCode 'ZIPCODE' validation checks
+            if (!_CF_checkzip(_CF_this['mailing_zipCode'].value, true))
+            {
+                _CF_onError(_CF_this, "mailing_zipCode", _CF_this['mailing_zipCode'].value, "Please enter a valid zipcode.");
+                _CF_error_exists = true;
+            }
+
+        }else {
+            _CF_onError(_CF_this, "mailing_zipCode", _CF_this['mailing_zipCode'].value, "Please enter a valid zipcode.");
+            _CF_error_exists = true;
+        }
+
+        //form element fname required check
+        if( !_CF_hasValue(_CF_this['fname'], "TEXT", false ) )
+        {
+            _CF_onError(_CF_this, "fname", _CF_this['fname'].value, "Please enter your first name.");
+            _CF_error_exists = true;
+        }
+
+        //form element lname required check
+        if( !_CF_hasValue(_CF_this['lname'], "TEXT", false ) )
+        {
+            _CF_onError(_CF_this, "lname", _CF_this['lname'].value, "Please enter your last name.");
+            _CF_error_exists = true;
+        }
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+</head>
+
+    <body  id="contact" class="bg3 two-col">
+
+        <a href="#main-nav" class="visuallyhidden">Skip to primary navigation</a>
+        <a href="#content" class="visuallyhidden">Skip to main content</a>
+    
+    
+        <div id="toolbar">
+            
+            <a id="sign-up" href="http://www.wyden.senate.gov/newsletter/">Sign up for Ron&rsquo;s Newsletter</a>
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+            
+                <form id="site-search" role="search" method="get" action="/search">
+            <fieldset>
+                <legend>Site Search</legend>
+                <input type="search" id="search-field" name="q" placeholder="Type here to search&hellip;" value="Type here to search&hellip;"  onclick="this.value='';" />
+                
+                    <input type="hidden" name="access" value="p" />
+                    <input type="hidden" name="as_dt" value="i" />
+                    <input type="hidden" name="as_epq" value="" />
+                    <input type="hidden" name="as_eq" value="" />
+                    <input type="hidden" name="as_lq" value="" />
+                    <input type="hidden" name="as_occt" value="any" />
+                    <input type="hidden" name="as_oq" value="" />
+                    <input type="hidden" name="as_q" value="" />
+                    <input type="hidden" name="as_sitesearch" value="" />
+                    <input type="hidden" name="client" value="wyden" />
+                    <input type="hidden" name="sntsp" value="0" />
+                    <input type="hidden" name="filter" value="0" />
+                    <input type="hidden" name="getfields" value="" />
+                    
+                    <input type="hidden" name="lr" value="" />
+                    <input type="hidden" name="num" value="15" />
+                    <input type="hidden" name="numgm" value="3" />
+                    <input type="hidden" name="oe" value="UTF8" />
+                    <input type="hidden" name="output" value="xml_no_dtd" />
+                    <input type="hidden" name="partialfields" value="" />
+                    <input type="hidden" name="proxycustom" value="" />
+                    <input type="hidden" name="proxyreload" value="0" />
+                    <input type="hidden" name="proxystylesheet" value="default_frontend" />
+                    <input type="hidden" name="requiredfields" value="" />
+                    <input type="hidden" name="sitesearch" value="" />
+                    <input type="hidden" name="sort" value="date:D:S:d1" />
+                    <input type="hidden" name="start" value="0" />
+                    <input type="hidden" name="ud" value="1" />
+                
+            </fieldset>
+            </form>
+        <ul id="social-media">
+        
+        <li class="twitter"><a target="_blank" href="https://twitter.com/#!/RonWyden">Twitter</a></li>
+        <li class="youtube"><a href="javascript:openWin('http://www.youtube.com/senronwyden');">YouTube</a></li>
+        <li class="flickr"><a href="javascript:openWin('http://www.flickr.com/photos/ronwyden');">Flickr</a></li>
+        <li class="huffpo"><a href="javascript:openWin('http://www.huffingtonpost.com/sen-ron-wyden');">Huffington Post</a></li>
+        <li class="plus-one"><a href="javascript:openWin('https://plus.google.com/u/0/102278340204235993405/posts');">+1</a></li>
+        <li class="instagram"><a href="javascript:openWin('http://instagram.com/wydenpress');">Instagram</a></li>
+    </ul>
+    <div class="clear"></div>
+        </div>
+    
+    <form id="email-signup" action="http://www.wyden.senate.gov/newsletter/" method="post" onsubmit="return _CF_checkCFForm_1(this)">
+
+            <fieldset>
+                <legend>Sign up for Ron&rsquo;s e-Mail Newsletter</legend>
+                <ol class="col five">
+                    <li class="required signup-header-email">
+                        <label for="email_header">Email<abbr title="Your email address is a required field">*</abbr></label>
+                        <input name="email" type="text" id="email_header"  />
+                    </li>
+                    <li class="required signup-header-zip">
+                        <label for="mailing_zipCode_header">Zip Code<abbr title="Your last name is a required field">*</abbr></label>
+                        <input name="mailing_zipCode" type="text" id="mailing_zipCode_header"  />
+                    </li>
+                    <li class="required signup-header-salutation">
+                        <label for="salutation_header">Prefix<abbr title="required">*</abbr></label>
+                        
+         
+		
+		
+		
+		
+		
+        
+        <select name="salutation" id="salutation">
+            <option label="--" value="">--</option>
+             
+   				<option label="Mr." value="Mr.">Mr.</option>
+			
+   				<option label="Ms." value="Ms.">Ms.</option>
+			
+   				<option label="Mrs." value="Mrs.">Mrs.</option>
+			
+   				<option label="Miss" value="Miss">Miss</option>
+			
+   				<option label="Mr. and Mrs." value="Mr. and Mrs.">Mr. and Mrs.</option>
+			
+   				<option label="Dr." value="Dr.">Dr.</option>
+			
+   				<option label="Prof." value="Prof.">Prof.</option>
+			
+   				<option label="Senator" value="Senator">Senator</option>
+			
+   				<option label="Gov." value="Gov.">Gov.</option>
+			
+   				<option label="Congressman" value="Congressman">Congressman</option>
+			
+   				<option label="Hon." value="Hon.">Hon.</option>
+			
+   				<option label="Fr." value="Fr.">Fr.</option>
+			
+   				<option label="Sister" value="Sister">Sister</option>
+			
+   				<option label="Rabbi" value="Rabbi">Rabbi</option>
+			
+   				<option label="Reverend" value="Reverend">Reverend</option>
+			
+   				<option label="Fleet Admiral" value="Fleet Admiral">Fleet Admiral</option>
+			
+   				<option label="Admiral" value="Admiral">Admiral</option>
+			
+   				<option label="Vice Admiral" value="Vice Admiral">Vice Admiral</option>
+			
+   				<option label="Rear Admiral (upper half)" value="Rear Admiral (upper half)">Rear Admiral (upper half)</option>
+			
+   				<option label="Rear Admiral (lower half)" value="Rear Admiral (lower half)">Rear Admiral (lower half)</option>
+			
+   				<option label="Captain" value="Captain">Captain</option>
+			
+   				<option label="Commander" value="Commander">Commander</option>
+			
+   				<option label="Lieutenant Commander" value="Lieutenant Commander">Lieutenant Commander</option>
+			
+   				<option label="Lieutenant" value="Lieutenant">Lieutenant</option>
+			
+   				<option label="Lieutenant, Junior Grade" value="Lieutenant, Junior Grade">Lieutenant, Junior Grade</option>
+			
+   				<option label="Ensign" value="Ensign">Ensign</option>
+			
+   				<option label="Master Chief Petty Officer of the Navy" value="Master Chief Petty Officer of the Navy">Master Chief Petty Officer of the Navy</option>
+			
+   				<option label="Master Chief Petty Officer" value="Master Chief Petty Officer">Master Chief Petty Officer</option>
+			
+   				<option label="Senior Chief Petty Officer" value="Senior Chief Petty Officer">Senior Chief Petty Officer</option>
+			
+   				<option label="Chief Petty Officer" value="Chief Petty Officer">Chief Petty Officer</option>
+			
+   				<option label="Petty Officer First Class" value="Petty Officer First Class">Petty Officer First Class</option>
+			
+   				<option label="Petty Officer Second Class" value="Petty Officer Second Class">Petty Officer Second Class</option>
+			
+   				<option label="Petty Officer Third Class" value="Petty Officer Third Class">Petty Officer Third Class</option>
+			
+   				<option label="Seaman" value="Seaman">Seaman</option>
+			
+   				<option label="Seaman Apprentice" value="Seaman Apprentice">Seaman Apprentice</option>
+			
+   				<option label="Seaman Recruit" value="Seaman Recruit">Seaman Recruit</option>
+			
+   				<option label="Chief Warrant Officer" value="Chief Warrant Officer">Chief Warrant Officer</option>
+			
+   				<option label="Warrant Officer" value="Warrant Officer">Warrant Officer</option>
+			
+   				<option label="Sgt Major Of The Corps" value="Sgt Major Of The Corps">Sgt Major Of The Corps</option>
+			
+   				<option label="Sergeant Major" value="Sergeant Major">Sergeant Major</option>
+			
+   				<option label="Master Gunnery Sgt" value="Master Gunnery Sgt">Master Gunnery Sgt</option>
+			
+   				<option label="First Sergeant" value="First Sergeant">First Sergeant</option>
+			
+   				<option label="Master Sergeant" value="Master Sergeant">Master Sergeant</option>
+			
+   				<option label="Gunnery Sergeant" value="Gunnery Sergeant">Gunnery Sergeant</option>
+			
+   				<option label="Staff Sergeant" value="Staff Sergeant">Staff Sergeant</option>
+			
+   				<option label="Sergeant" value="Sergeant">Sergeant</option>
+			
+   				<option label="Corporal" value="Corporal">Corporal</option>
+			
+   				<option label="Lance Corporal" value="Lance Corporal">Lance Corporal</option>
+			
+   				<option label="Private First Class" value="Private First Class">Private First Class</option>
+			
+   				<option label="Private" value="Private">Private</option>
+			
+   				<option label="General of the Air Force" value="General of the Air Force">General of the Air Force</option>
+			
+   				<option label="General" value="General">General</option>
+			
+   				<option label="Lieutenant General" value="Lieutenant General">Lieutenant General</option>
+			
+   				<option label="Major General" value="Major General">Major General</option>
+			
+   				<option label="Brigadier General" value="Brigadier General">Brigadier General</option>
+			
+   				<option label="Colonel" value="Colonel">Colonel</option>
+			
+   				<option label="Lieutenant Colonel" value="Lieutenant Colonel">Lieutenant Colonel</option>
+			
+   				<option label="Major" value="Major">Major</option>
+			
+   				<option label="First Lieutenant" value="First Lieutenant">First Lieutenant</option>
+			
+   				<option label="Second Lieutenant" value="Second Lieutenant">Second Lieutenant</option>
+			
+   				<option label="Chief Master Sergeant of the Air Force" value="Chief Master Sergeant of the Air Force">Chief Master Sergeant of the Air Force</option>
+			
+   				<option label="Command  Chief Master Sergeant" value="Command  Chief Master Sergeant">Command  Chief Master Sergeant</option>
+			
+   				<option label="Chief Master Sergeant" value="Chief Master Sergeant">Chief Master Sergeant</option>
+			
+   				<option label="Senior Master Sergeant" value="Senior Master Sergeant">Senior Master Sergeant</option>
+			
+   				<option label="Technical Sergeant" value="Technical Sergeant">Technical Sergeant</option>
+			
+   				<option label="Senior Airman" value="Senior Airman">Senior Airman</option>
+			
+   				<option label="Airman First Class" value="Airman First Class">Airman First Class</option>
+			
+   				<option label="Airman" value="Airman">Airman</option>
+			
+        </select>
+	
+                    </li>
+                    <li class="required signup-header-first-name">
+                        <label for="fname_header">First Name<abbr title="Your first name is a required field">*</abbr></label>
+                        <input name="fname" type="text" id="fname_header"  />
+                    </li>
+                    <li class="required signup-header-last-name">
+                        <label for="lname_header">Last Name<abbr title="Your last name is a required field">*</abbr></label>
+                        <input name="lname" type="text" id="lname_header"  />
+                    </li>
+                </ol>
+                
+                <input type="hidden" name="newsletter_signup_step" value="1" />
+                <input class="button" type="submit" id="submit" value="Sign Me Up!" />  
+            
+            </fieldset>
+        </form>
+
+    
+    
+        <header id="masthead" role="banner">        
+            <h1><a href="http://www.wyden.senate.gov/">Ron Wyden, Senator for Oregon</a></h1>
+            <!--googleoff: all-->
+
+
+
+	
+
+
+
+	
+
+		
+		
+			
+		
+
+		
+		
+		
+		
+
+		
+
+		
+		
+			
+			
+				
+			
+		
+
+		
+
+	
+		<nav id="main-nav">
+			<h1><a id="toggle" href="javascript:return null;">Menu</a></h1>
+			<ul id="menu">
+				
+		
+				
+					
+						
+
+						
+						
+						
+						
+						
+						
+						
+						
+						<li>
+							<a href="http://www.wyden.senate.gov/meet-ron/biography">Meet Ron</a>
+							
+							
+						</li>
+					
+				
+					
+						
+
+						
+						
+						
+						
+						
+                        
+							
+						
+						
+						
+						
+						<li>
+							<a href="http://www.wyden.senate.gov/news">News</a>
+							
+							
+								<div class="sub">
+									
+																
+											<ul>
+												
+													<li><a href="http://www.wyden.senate.gov/news/blog">Blog</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/news">Newsroom</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/news/press-releases">Press Releases</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/news/photo-gallery">Photo Gallery</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/news/video-and-audio">Video &amp; Audio</a></li>
+												
+											</ul>
+											<div class="snippet"><p>The latest updates from Senator Wyden's newsroom including blog posts, press releases, video clips and photos.</p></div>
+										
+									
+								</div>
+							
+						</li>
+					
+				
+					
+						
+
+						
+						
+						
+						
+						
+                        
+							
+								
+								
+								
+							
+						
+						
+						
+						
+						<li class="render-include">
+							<a href="http://www.wyden.senate.gov/priorities">Priorities</a>
+							
+							
+								<div class="sub">
+									
+										<!--googleoff: all-->
+		    
+        <div id="search-issues-container">
+            <div id="issue-query-container">
+                <form id="search-issues-form" action="http://www.wyden.senate.gov/priorities/" method="get"> 
+				<fieldset>
+                <label id="issue-lookup-label" for="search_issues">Search for an Issue</label>
+                    
+                    
+                    
+                    
+                    
+                    <input type="text" id="search_issues" value="" onclick="this.value=''" autocomplete="off">
+                     
+                    
+                        
+                    
+                </fieldset>
+                </form>
+            </div> 
+            <div id="clear-issues-search" style="display:none;"></div>
+            <div class="clear"></div>
+        </div><!-- // search-services-container -->
+        
+        <ul id="results"></ul>
+        
+        
+
+		
+		
+
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+
+			
+      
+      
+		
+        
+        <ul class="col">
+			<li class="issue-lookup-label">Issues</li>
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/agriculture">Agriculture&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/bipartisan-health-options">Bipartisan Health Options&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/bipartisanship">Bipartisanship&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/county-payments">County Payments&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/eastside-forests">Eastside Forests&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/education">Education&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/elections-and-voting">Elections and Voting&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/energy">Energy&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+						</ul>
+						<ul class="col">
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/environment">Environment&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/financial-reform">Financial Reform&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/foreign-policy">Foreign Policy&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/hanford">Hanford&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/health-care">Health Care&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/intelligence-and-national-security">Intelligence & National Security&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/international-trade">International Trade&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/internet-and-technology">Internet & Technology&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/online-sales-tax">Online Sales Tax&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/open-government">Open Government&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+						</ul>
+						<ul class="col">
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/secret-law">Secret Law&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/self-employment-assistance">Self-Employment Assistance&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/seniors">Seniors&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/sex-trafficking">Sex Trafficking&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/taxes">Taxes&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/transportation">Transportation&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/veterans">Veterans&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/wilderness">Wilderness&nbsp;&raquo;</a></li>
+			
+			
+			
+		</ul>
+		
+        
+        
+        
+
+		
+		
+
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+
+			
+      
+      
+		
+        
+        <div class="clear" style="clear:both;border-top:1px solid #0E5372;"></div>
+		<ul class="col">
+			<li class="issue-lookup-label">Legislation</li>
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/enforce-act">ENFORCE Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/follow-the-money-act">Follow the Money Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/fresh-act">FRESH Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/gps-act">GPS Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+						</ul>
+						<ul class="col">
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/independence-at-home">Independence at Home&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/the-internet-radio-fairness-act">The Internet Radio Fairness Act of 2012&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/medicare-better-health-rewards-program">Medicare "Better Health Rewards" Program&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/oandc-legislative-framework">O&C Legislative Framework&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/open-act">OPEN Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/pcheta">PCHETA Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+						</ul>
+						<ul class="col">
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/student-right-to-know-before-you-go-act">Student Right To Know Before You Go Act&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/trip-bonds">TRIP Bonds&nbsp;&raquo;</a></li>
+			
+			
+				
+				    
+					
+				
+                
+                	
+                
+                
+				<li><a href="http://www.wyden.senate.gov/priorities/wyden-coats-tax-plan">Wyden-Coats Tax Plan&nbsp;&raquo;</a></li>
+			
+			
+			
+		</ul>
+		
+        
+        
+        
+		
+		
+  <!--googleon: all-->
+									
+								</div>
+							
+						</li>
+					
+				
+					
+				
+					
+						
+
+						
+						
+						
+						
+						
+                        
+							
+						
+						
+						
+							
+							
+							
+							
+								
+									
+									
+							
+						
+						
+						<li class="multiple-descriptions">
+							<a href="http://www.wyden.senate.gov/services">Services</a>
+							
+							
+								<div class="sub">
+									
+										
+											<ul>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/visiting/">
+															<div class="service">Visit Washington D.C.</div>
+															
+																<div class="snippet"><p>Information for planning a trip to the nation&rsquo;s capital.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/help-with-a-federal-agency">
+															<div class="service">Help with a Federal Agency</div>
+															
+																<div class="snippet"><p>Information to help you navigate the federal agencies.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/federal-resources">
+															<div class="service">Federal Resources</div>
+															
+																<div class="snippet"><p>Information on federal grants, jobs, student financial aid, and more.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/flags">
+															<div class="service">Request a Flag</div>
+															
+																<div class="snippet"><p>Order a flag flown over the U.S. Capitol Building.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/grants">
+															<div class="service">Grants</div>
+															
+																<div class="snippet"><p>Information for federal grant applications.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/internship/">
+															<div class="service">Internships</div>
+															
+																<div class="snippet"><p>Apply for internships in Senator Wyden&rsquo;s Washington, D.C. and Oregon offices.</p></div>
+															
+														</a>
+													</li>
+												
+													<li>
+														<a href="http://www.wyden.senate.gov/services/academy-nominations">
+															<div class="service">Academy Nominations</div>
+															
+																<div class="snippet"><p>Instructions for nominations to U.S. military academies.</p></div>
+															
+														</a>
+													</li>
+												
+											</ul>
+										
+									
+								</div>
+							
+						</li>
+					
+				
+					
+				
+					
+						
+
+						
+						
+						
+						
+						
+                        
+							
+						
+						
+						
+						
+						<li>
+							<a href="http://www.wyden.senate.gov/oregon/working-for-oregon">In Oregon</a>
+							
+							
+								<div class="sub">
+									
+																
+											<ul>
+												
+													<li><a href="http://www.wyden.senate.gov/oregon/working-for-oregon">Working for Oregon</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/oregon/events">Events &amp; Town Halls</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/oregon/visit-oregon">Visit Oregon</a></li>
+												
+													<li><a href="http://www.wyden.senate.gov/oregon/delegation">Delegation</a></li>
+												
+											</ul>
+											<div class="snippet"><p><span>When elected to the U.S. Senate, Senator Ron Wyden pledged to hold at least one public town meeting in each of Oregon's 36 counties each year. Keeping that promise since 1996, Senator Wyden has held more than 655 town hall meetings across the state. &nbsp;Here you will also find information about </span>some of Oregon's most popular sites and attractions,&nbsp;Oregon's Congressional Delegation, and more.&nbsp;</p></div>
+										
+									
+								</div>
+							
+						</li>
+					
+				
+					
+						
+
+						
+						
+						
+						
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+						<li class="no-descriptions">
+							<a href="http://www.wyden.senate.gov/library">Library</a>
+							
+							
+						</li>
+					
+				
+					
+						
+
+						
+						
+							
+						
+						
+						
+						
+						
+						
+						
+						<li class="selected">
+							<a href="http://www.wyden.senate.gov/contact">Contact</a>
+							
+							
+						</li>
+					
+				
+			</ul><!-- // menu -->
+		</nav><!-- // main-nav -->
+	
+
+<!--googleon: all-->
+        </header>
+
+    
+    
+    
+        <div id="container">
+                
+            
+            
+        
+            
+            
+            
+
+        
+        
+        
+        
+
+
+	<div id="content">
+	
+	<div id="main" role="main">
+	
+<ul id='breadcrumbs'><li><a href='http://www.wyden.senate.gov/'>Home</a>&gt;</li><li class='current-section'><a href='http://www.wyden.senate.gov/contact/'>Contact</a></li></ul>
+
+
+    
+    
+    
+    
+    
+    
+    <!-- headline start -->
+    <div class="headline">
+      <h2>Thank You</h2>
+    </div>
+    <!-- headline end -->
+    <p>Thank you for contacting Senator Wyden. For the latest news &amp; updates, please see below.</p>
+	<p>For the latest news &amp; updates, please see below.</p>
+	
+			
+				<div class="sectionhead">
+					<ul>
+						<li   id="news_link"><a id="news" href="javascript:void(0)">
+							<h1>News</h1>
+							</a></li>
+					</ul>
+				</div>
+				<section id="news_panel" class="active">
+					
+	
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+		
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+	
+	
+	
+		
+
+	
+	
+		
+					
+						<ul>
+							
+								<li>
+									<time datetime="2013-06-14">06/14/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/udall-wyden-propose-limiting-the-federal-governments-ability-to-collect-vast-amounts-of-data-on-americans" class="release">Udall, Wyden Propose Limiting the Federal Government's Ability to Collect Vast Amounts of Data on Americans</a></li>
+							
+								<li>
+									<time datetime="2013-06-13">06/13/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/wyden-outlines-new-medicare-reforms" class="release">Wyden Outlines New Medicare Reforms</a></li>
+							
+								<li>
+									<time datetime="2013-06-13">06/13/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/udall-wyden-call-on-national-security-agency-director-to-clarify-comments-on-effectiveness-of-phone-data-collection-program" class="release">Udall, Wyden Call On National Security Agency Director to Clarify Comments on Effectiveness of Phone Data Collection Program</a></li>
+							
+								<li>
+									<time datetime="2013-06-11">06/11/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/wyden-statement-responding-to-director-clappers-statements-about-collection-on-americans" class="release">Wyden Statement Responding to Director Clapper’s Statements About Collection on Americans</a></li>
+							
+								<li>
+									<time datetime="2013-06-11">06/11/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/senators-end-secret-law" class="release">Senators: End Secret Law</a></li>
+							
+								<li>
+									<time datetime="2013-06-10">06/10/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/farm-bill-includes-wyden-provisions-to-fight-hunger-and-bring-local-food-to-schools" class="release">Farm Bill Includes Wyden Provisions to Fight Hunger and Bring Local Food to Schools</a></li>
+							
+								<li>
+									<time datetime="2013-06-07">06/07/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/wyden-udall-question-the-value-and-efficacy-of-phone-records-collection-in-stopping-attacks" class="release">Wyden, Udall Question the Value and Efficacy of Phone Records Collection in Stopping Attacks</a></li>
+							
+								<li>
+									<time datetime="2013-06-06">06/06/13</time>
+									<a href="http://www.wyden.senate.gov/news/press-releases/wyden-statement-on-alleged-large-scale-collection-of-phone-records" class="release">Wyden Statement on Alleged Large-Scale Collection of Phone Records</a></li>
+							
+						</ul>
+						<a href="http://www.wyden.senate.gov/news/press-releases/" class="button">More News</a>
+					
+				</section>
+			
+			
+			
+			<section class="active" id="twitter">
+				<h1>Twitter Feed</h1>
+				<div class="frames">
+					<a class="twitter-timeline" data-dnt=true href="https://twitter.com/RonWyden" data-widget-id="255772241453785088">Tweets by @RonWyden</a> 
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+					<a href="javascript:openWin('http://www.twitter.com/ronwyden');" class="follow-me button">Follow me on Twitter</a> 
+				</div>
+				<div class="frames">
+					<a class="twitter-timeline" data-dnt=true href="https://twitter.com/WydenPress" data-widget-id="255773473492832256">Tweets by @WydenPress</a> 
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+					<a href="javascript:openWin('http://www.twitter.com/wydenpress');" class="follow-me button">Follow me on Twitter</a> 
+				</div>
+			</section>
+			
+			
+			
+			
+			
+		
+		
+        
+        
+		
+		
+		
+		
+			
+				<section id="video" class="video_bg active"">
+				
+				
+				
+				
+				
+				
+				<div id="flash">
+					
+						
+							
+							
+							
+								
+									
+									
+										
+										
+										
+									
+									
+									
+								
+								
+							<h1>Featured Video</h1>
+							<div class="vid-title">Wyden and Murkowski Unveil The Follow the Money Act of 2013</div>
+							
+								
+									<div id="media-player">
+										<iframe title="YouTube video player" width="500" height="367" src="http://www.youtube.com/embed/9QINS_299NQ?rel=0&amp;wmode=opaque" frameborder="0" scrolling="no" allowfullscreen id="media-player"></iframe>
+									</div>
+								
+								
+							
+					
+				</div>
+				<div id="featured-details"> <a href="http://www.wyden.senate.gov/news/video-and-audio/" class="button more">More Video &raquo;</a> </div>
+				
+			
+			
+	
+	
+	
+	
+	
+    
+  </div>
+  <!-- end "main" content //-->
+	<div id="asides">
+		<aside class="sam">
+			<div id="sam-pod" class="amend-textarea">
+			
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+		
+		
+			
+			
+   			
+			
+		
+		
+		
+			
+					<h3>&nbsp;</h3>
+<h1>Office Locations</h1>
+<p><strong>Washington D.C.</strong><br /> 221 Dirksen Senate Office Bldg.<br /> <span>Washington</span>, <span>D.C.</span>, <span>20510</span> <br /> tel (202) 224-5244<br /> fax (202) 228-2717</p>
+<p><br /> <strong>Portland</strong><br /> 911 NE 11th Ave., <span>Suite 630</span><br /> <span>Portland</span>, <span>OR</span>, <span>97232</span> <br /> tel (503) 326-7525</p>
+<p><br /> <strong>Salem</strong><br /> 707 13th St., SE <span>Suite 285</span><br /> <span>Salem</span>, <span>OR</span>, <span>97301</span> <br /> tel (503) 589-4555</p>
+<p><br /> <strong>Eugene</strong><br /> 405 East 8th Ave., <span>Suite 2020</span><br /> <span>Eugene</span>, <span>OR</span>, <span>97401</span> <br /> tel (541) 431-0229</p>
+<p><br /> <strong>Medford</strong><br /> <span>Federal Courthouse <br />310 West 6th St., <br />Room 118</span><br /> <span>Medford</span>, <span>OR</span>, <span>97501</span> <br /> tel (541) 858-5122</p>
+<p><br /> <strong>Bend</strong><br /> <span>The Jamison Building <br />131 NW Hawthorne Ave., <br />Suite 107</span><br /> <span>Bend</span>, <span>OR</span>, <span>97701</span><br /> tel (541) 330-9142</p>
+<p><br /> <strong>La Grande</strong><br /> <span>SAC Annex Building <br />105 Fir St,. Suite 201</span><br /> <span>La Grande</span>, <span>OR</span>, <span>97850</span><br /> tel (541) 962-7691</p>
+			
+			
+	
+		</div>
+      </aside>
+	</div>
+</div>
+
+<!-- end content //-->
+</div> 
+
+ 
+<footer id="site-footer">
+
+	<div class="container">
+		<nav id="addresses">
+			<ul>
+            	<li id="mi-dc"><a id="link_washington-dc-map">Washington, D.C.</a></li>
+				<li id="mi-portland"><a id="link_portland-map">Portland</a></li>
+				<li id="mi-eugene"><a id="link_eugene-map">Eugene</a></li>
+				<li id="mi-la-grande"><a id="link_la-grande-map">La Grande</a></li>
+				<li id="mi-medford"><a id="link_medford-map">Medford</a></li>
+				<li id="mi-bend"><a id="link_bend-map">Bend</a></li>
+				<li id="mi-salem"><a id="link_salem-map">Salem</a></li>
+			</ul>
+		</nav>
+		
+		<ul id="office-locations" class="ft-portland">
+
+				
+				<li id="portland-map" class="card">
+                <img src="/imo/media/image/portland.jpg" alt="Portland" />
+                <div class="info">
+					<div class="org fn">Portland</div>
+					<div class="add">
+						<div class="street-address">911 NE 11th Ave., <span class="extended-address">Suite 630</span></div>
+						<span class="locality">Portland</span>, 
+						<span class="region">OR</span>, 
+						<span class="postal-code">97232</span>
+					</div>
+					<div class="tel">tel (503) 326-7525</div>
+					<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=911+NE+11th+Ave+Suite+630+Portland,+OR+97232')">Get Directions</a>	
+                </div>
+				</li>
+				
+				
+				
+				
+				<li id="eugene-map" class="card">	
+                <img src="/imo/media/image/eugene.jpg" alt="Eugene" />
+                <div class="info">				
+					<div class="org fn">Eugene</div>
+					<div class="add">
+						<div class="street-address">405 East 8th Ave., <span class="extended-address">Suite 2020</span></div>
+						<span class="locality">Eugene</span>, 
+						<span class="region">OR</span>, 
+						<span class="postal-code">97401</span>
+					</div>
+					<div class="tel">tel (541) 431-0229</div>
+					<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=405+East+8th+Avenue+Suite+2020+Eugene,+OR+97401')">Get Directions</a>
+				</div>
+                </li>
+				
+				<li id="la-grande-map" class="card">
+				<img src="/imo/media/image/la-grande.jpg" alt="La Grande" />
+                <div class="info">
+							<div class="org fn">La Grande</div>
+							<div class="add">
+								<div class="street-address"><span class="building">SAC Annex Building </span>105 Fir St,. <span class="extended-address">Suite 201</span></div>
+								<span class="locality">La Grande</span>, 
+								<span class="region">OR</span>, 
+								<span class="postal-code">97850</span>
+							</div>
+							<div class="tel">tel (541) 962-7691</div>
+							<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=105+Fir+St+Suite+201+La+Grande,+OR+97850')">Get Directions</a>
+                </div>
+				</li>
+				
+				<li id="medford-map" class="card">
+				<img src="/imo/media/image/medford.jpg" alt="Medford" />
+                <div class="info">
+							<div class="org fn">Medford</div>
+							<div class="add">
+								<div class="street-address"><span class="building">Federal Courthouse </span>310 West 6th St., <span class="extended-address">Room 118</span></div>
+								<span class="locality">Medford</span>, 
+								<span class="region">OR</span>, 
+								<span class="postal-code">97501</span>
+							</div>
+							<div class="tel">tel (541) 858-5122</div>
+							<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=310+West+6th+St+Room+118+Medford,+OR+97501')">Get Directions</a>
+				</div>
+				</li>
+				
+				<li id="bend-map" class="card">
+				<img src="/imo/media/image/bend.jpg" alt="Bend" />
+                <div class="info">	
+							<div class="org fn">Bend</div>
+							<div class="add">
+								<div class="street-address"><span class="building">The Jamison Building </span>131 NW Hawthorne Ave., <span class="extended-address">Suite 107</span></div>
+								<span class="locality">Bend</span>, 
+								<span class="region">OR</span>, 
+								<span class="postal-code">97701</span>
+							</div>
+							<div class="tel">tel (541) 330-9142</div>
+							<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;safe=off&amp;q=131+NW+Hawthorne+Ave+Suite+107+Bend,+OR+97701')">Get Directions</a>
+				</div>
+				</li>
+					
+				<li id="salem-map" class="card">
+				<img src="/imo/media/image/salem.jpg" alt="Salem" />
+                <div class="info">
+							<div class="org fn">Salem</div>
+							<div class="add">
+								<div class="street-address">707 13th St., SE <span class="extended-address">Suite 285</span></div>
+								<span class="locality">Salem</span>, 
+								<span class="region">OR</span>, 
+								<span class="postal-code">97301</span>
+							</div>
+							<div class="tel">tel (503) 589-4555</div>
+							<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=707+13th+St,+SE+Suite+285+Salem,+OR+9730')">Get Directions</a>
+				</div>
+				</li>
+				
+				
+	
+				<li id="washington-dc-map" class="card visible">							
+				<img src="/imo/media/image/washington-dc.jpg" alt="Washington D.C." />
+                <div class="info">
+                	<div class="org fn">Washington D.C.</div>
+					<div class="add">
+						<div class="street-address">221 Dirksen Senate Office Bldg.</div>
+						<span class="locality">Washington</span>, 
+						<span class="region">D.C.</span>, 
+						<span class="postal-code">20510</span>
+					</div>
+					<div class="tel">tel (202) 224-5244</div>
+					<div class="fax">fax (202) 228-2717</div>
+					<a class="directions" href="javascript:openWin('http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=221+Dirksen+Senate+Office+Building+Washington,+DC+20510-3703')">Get Directions</a>
+				</div>
+				</li>
+		
+	
+		</ul>
+	
+	
+		<ul id="social-media">
+			
+			<li class="twitter"><a target="_blank" href="https://twitter.com/#!/RonWyden">Twitter</a></li>
+			<li class="youtube"><a href="javascript:openWin('http://www.youtube.com/senronwyden');">YouTube</a></li>
+			<li class="flickr"><a href="javascript:openWin('http://www.flickr.com/photos/ronwyden');">Flickr</a></li>
+			<li class="huffpo"><a href="javascript:openWin('http://www.huffingtonpost.com/sen-ron-wyden');">Huffington Post</a></li>
+			<li class="plus-one"><a href="javascript:openWin('https://plus.google.com/u/0/102278340204235993405/posts');">+1</a></li>
+		</ul>
+		
+		
+	</div>
+
+
+	<ul id="footer-links">
+		<li><a href="http://www.wyden.senate.gov/privacy/">Privacy Policy</a></li>
+		<li><a href="http://www.wyden.senate.gov/site/map/">Site Map</a></li>
+		<li><a href="http://www.wyden.senate.gov/contact/">Contact</a></li>
+	</ul>
+	
+	
+</footer>
+
+<script type="text/javascript">
+	window.addEvent("domready", function() {
+
+		var links = document.id("site-footer").getElements("#addresses a");
+		var offices = document.id("site-footer").getElements(".card");
+		var imgs = document.id("site-footer").getElements("#office-locations");
+		
+		$each(links, function(link) {
+			link.addEvents({
+				"mouseover": function() {
+
+					// remove the visible class from the current (actually all) office
+					$each(offices, function() { offices.removeClass('visible'); });
+					var visible = this.id.replace(/link_/gi, "");
+					$(visible).addClass('visible');
+					
+					
+					//alert(visible);
+					
+					
+					
+					//alert(visible.hasClass())
+					
+					//visible.addClass('visible');
+					
+					//alert(this.id.replace(/link_/gi, ""));
+					
+					//footer.erase("class");
+					//office.addClass(this.id.replace(/link_/gi, "visible"));
+				}
+			});
+		});
+	});
+
+	var issues_lookup_controller = null;
+	window.addEvent("domready", function() {
+		issues_lookup_controller = new Issues_Lookup_Controller({
+			
+			id: "issues_lookup_controller",
+			webroot: "http://www.wyden.senate.gov/",
+			field_value: "",
+			datasource: "cfc_extensions/data/issue_items_data.cfc",
+			results_page: "http://www.wyden.senate.gov/issues/"
+			
+		});
+	});
+	
+	if (top.frames.length > 0 && window.top.location.href.match(/\/amend\//gi)) {
+		document.write('<script type="text/javascript" src="http://www.wyden.senate.gov/scripts/tinymce/tiny_mce.js"><\/script>');
+	}
+</script>
+
+		<script src="http://www.youtube.com/player_api" type="text/javascript" charset="utf-8"></script>
+		
+		<!-- START OF SmartSource Data Collector TAG -->
+		<!-- Copyright (c) 1996-2012 Webtrends Inc.  All rights reserved. -->
+		<!-- Version: 9.4.0 -->
+		<!-- Tag Builder Version: 4.1  -->
+		<!-- Created: 12/17/2012 4:02:00 PM -->
+		<script src="/wt_sdc/wyden_webtrends.js" type="text/javascript"></script>
+		<!-- ----------------------------------------------------------------------------------- -->
+		<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+		<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+		<!-- ----------------------------------------------------------------------------------- -->
+		<script type="text/javascript">
+		//<![CDATA[
+		var _tag=new WebTrends();
+		_tag.dcsGetId();
+		//]]>
+		</script>
+		<script type="text/javascript">
+		//<![CDATA[
+		_tag.dcsCustom=function(){
+		// Add custom parameters here.
+		//_tag.DCSext.param_name=param_value;
+		}
+		_tag.dcsCollect();
+		//]]>
+		</script>
+		<noscript>
+		<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc1.senate.gov/dcs586a9t6iyw684e1r1uhr0f_1e9t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.wyden.senate.gov"/></div>
+		</noscript>
+		<!-- END OF SmartSource Data Collector TAG -->
+		
+	   
+		
+	</body>
+</html>
+
+
+

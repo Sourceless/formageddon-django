@@ -1,0 +1,740 @@
+<base href="http://billnelson.senate.gov/contact/email.cfm"/>
+
+
+
+  
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Bill Nelson, U.S. Senator from Florida: Email Form</title>
+<meta name="description" content="Contact Senator Nelson online to get information about legislation, learn about his positions or share an opinion.  " />
+<meta name="keywords" content="Bill Nelson, Bill, Nelson, Florida, fl, Senator, Democrat, Armed Services, Budget, Commerce, Foreign Relations, Aging, Committee, U.S. Senate, Contact, Email, Webform, Form" />
+
+<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+<link type="text/css" href="../css/default.css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" href="../css/p7tmbasic.css" />
+<script type="text/javascript" src="../global/p7tmscripts.js"></script>
+<script type="text/javascript" src="../global/default.js"></script>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+
+
+
+	
+
+
+
+
+
+	
+	
+
+
+	
+	
+	
+	
+	
+
+<link href="contactform/styles/styles.css" rel="stylesheet" type="text/css">
+
+<script language="javascript" type="text/javascript">
+	// Checks variable to ensure a value has been entered
+	function IsDefined(ID,Form,Type,Friendly)
+	{
+		if(Type == "select")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value;");
+			
+			if(EvalObject == "")
+			{
+				alert(Friendly + ' is required, please input a value.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value;");
+		
+			if(EvalObject == "")
+			{
+				alert(Friendly + ' is required, please input a value.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "checkbox")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".checked;");
+			
+			if(!EvalObject)
+			{
+				alert(Friendly + ' is required, please input a value.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count == -1)
+			{
+				
+				alert(Friendly + ' is required, please input a value.');
+				return false;
+			}
+			else
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value;");
+				
+				if(EvalObjectFinal == "")
+				{
+					alert(Friendly + ' is required, please input a value.');
+					return false;
+				}
+			}
+			return true;
+		}
+	}
+	
+	// Checks variable to ensure a value is numeric
+	function IsNumeric(ID,Form,Type,Friendly)
+	{
+		var RegularExpression = new RegExp("^[0-9.]*$");
+	
+		if(Type == "select")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value.search(" + RegularExpression + ");");
+			
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not numeric, please restrict your input to just numbers.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value.search(" + RegularExpression + ");");
+		
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not numeric, please restrict your input to just numbers.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count != -1)
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value.search(" + RegularExpression + ");");
+				
+				if(EvalObjectFinal == -1)
+				{
+					alert(Friendly + ' is not numeric, please restrict your input to just numbers.');
+					return false;
+				}
+			}
+			else
+			{
+				alert(Friendly + ' is not numeric, please restrict your input to just numbers.');
+				return false;
+			}
+			return true;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	
+	// Checks variable to ensure value is alpha-numeric
+	function IsAlphaNumeric(ID,Form,Type,Friendly)
+	{
+		var RegularExpression = new RegExp("^[a-zA-Z0-9 ]*$");
+	
+		if(Type == "select" || Type == "Radio")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value.search(" + RegularExpression + ");");
+			
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not alpha-numeric, please restrict your input to letters and numbers.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value.search(" + RegularExpression + ");");
+		
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not alpha-numeric, please restrict your input to letters and numbers.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count != -1)
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value.search(" + RegularExpression + ");");
+				
+				if(EvalObjectFinal == -1)
+				{
+					alert(Friendly + ' is not alpha-numeric, please restrict your input to letters and numbers.');
+					return false;
+				}
+			}
+			else
+			{
+				alert(Friendly + ' is not alpha-numeric, please restrict your input to letters and numbers.');
+				return false;
+			}
+		}
+		else
+		{
+			return true;
+		}
+	}
+	
+	// Checks variable to ensure a value is alphabetic
+	function IsAlphabetic(ID,Form,Type,Friendly)
+	{
+		var RegularExpression = new RegExp("^[a-zA-Z ]*$");
+	
+		if(Type == "select" || Type == "Radio")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value.search(" + RegularExpression + ");");
+			
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not alphabetic, please restrict your input to letters.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value.search(" + RegularExpression + ");");
+		
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not alphabetic, please restrict your input to letters.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count != -1)
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value.search(" + RegularExpression + ");");
+				
+				if(EvalObjectFinal == -1)
+				{
+					alert(Friendly + ' is not alphabetic, please restrict your input to letters.');
+					return false;
+				}
+			}
+			else
+			{
+				alert(Friendly + ' is not alphabetic, please restrict your input to letters.');
+				return false;
+			}
+		}
+		else
+		{
+			return true;
+		}
+	}
+	
+	// Checks variable to ensure a value is alphabetic
+	function IsDate(ID,Form,Type,Friendly)
+	{
+		var RegularExpression = /^\d{1,2}(\-|\/|\.)\d{1,2}\1\d{4}$/;
+	
+		if(Type == "select" || Type == "Radio")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value.search(" + RegularExpression + ");");
+			
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not a valid date, please enter a valid date in the format of MM/DD/YYYY.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value.search(" + RegularExpression + ");");
+		
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not a valid date, please enter a valid date in the format of MM/DD/YYYY.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count != -1)
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value.search(" + RegularExpression + ");");
+				
+				if(EvalObjectFinal == -1)
+				{
+					alert(Friendly + ' is not a valid date, please enter a valid date in the format of MM/DD/YYYY.');
+					return false;
+				}
+			}
+			else
+			{
+				alert(Friendly + ' is not a valid date, please enter a valid date in the format of MM/DD/YYYY.');
+				return false;
+			}
+		}
+		else
+		{
+			return true;
+		}
+	}
+	
+	// Checks variable to ensure a value is alphabetic
+	function IsEmail(ID,Form,Type,Friendly)
+	{
+		var RegularExpression = /(^[a-z]([a-z_\.]*)@([a-z_\.]*)([.][a-z]{3})$)|(^[a-z]([a-z_\.]*)@([a-z_\.]*)(\.[a-z]{3})(\.[a-z]{2})*$)/i;
+	
+		if(Type == "select" || Type == "Radio")
+		{
+			var index = eval("document." + Form + "." + ID + ".selectedIndex;");
+			var EvalObject = eval('document.' + Form + '.' + ID + ".options[" + index + "].value.search(" + RegularExpression + ");");
+			
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not a valid email, please enter a valid email address.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "textfield" || Type == "textarea")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ".value.search(" + RegularExpression + ");");
+		
+			if(EvalObject == -1)
+			{
+				alert(Friendly + ' is not a valid email, please enter a valid email address.');
+				return false;
+			}
+			return true;
+		}
+		else if(Type == "radio")
+		{
+			var EvalObject = eval('document.' + Form + '.' + ID + ";");
+			var Count = -1
+			for(var i=0; i < EvalObject.length ; i++) 
+			{
+				if(EvalObject[i].checked) Count = i;
+			}
+			
+			if(Count != -1)
+			{
+				var EvalObjectFinal = eval('document.' + Form + '.' + ID + "[" + Count + "]" + ".value.search(" + RegularExpression + ");");
+				
+				if(EvalObjectFinal == -1)
+				{
+					alert(Friendly + ' is not a valid email, please enter a valid email address.');
+					return false;
+				}
+			}
+			else
+			{
+				alert(Friendly + ' is not a valid email, please enter a valid email address.');
+				return false;
+			}
+		}
+		else
+		{
+			return true;
+		}
+	}
+
+	function ValidateChecks()
+	{
+		if(!IsDefined('Re','index','select','Contact type')){return false;} 
+		return true;
+	}
+</script>
+
+
+
+
+ <!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2012 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 12/12/2012 4:08:22 PM -->
+<script src="/wt_sdc/nelson_webtrends.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc1.senate.gov/dcst4cb9i00000c50t2y5cwez_6n8n/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.billnelson.senate.gov"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+</head>
+
+<body onload="P7_TMopen()">
+
+
+
+<!--<div id="headerWrapper">-->
+<table id="header" width="800" border="0" align="center" cellpadding="0" cellspacing="0" summary="page header and search form">
+  <tr>
+    <td height="35" colspan="3"><br />
+        <br /></td>
+  </tr>
+  <tr>
+    <td width="169">&nbsp;</td>
+    <td width="457" id="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left"><a href="http://billnelson.senate.gov/">billnelson.senate.gov</a></td>
+        <td align="right">Today: July 29, 2013</td>
+      </tr>
+    </table></td>
+    <td width="174">&nbsp;</td>
+  </tr>
+</table>
+<!--</div>-->
+
+
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" id="content" summary="navigation, content, and related items">
+	<tr>
+		<td width="169" id="leftCol" valign="top">
+			
+			
+
+
+<div id="blkContact">
+	<table width="124" height="52" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="right" valign="bottom"><a href="http://billnelson.senate.gov/contact/index.cfm"><img src="http://billnelson.senate.gov/images/int/butContact.gif" alt="Contact Bill" width="78" height="13" border="0" /></a></td>
+		</tr>
+		<tr><td height="10"></td></tr>
+	</table>
+</div>
+
+						
+			
+			<div id="sectionNav">
+			    <div class="navHeader"><img src="http://billnelson.senate.gov/images/int/stServing.gif" width="124" height="18" /></div>
+				
+			    <div id="p7TMnav">
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">CONSTITUENT HELP</a>
+                     	<div><a href="http://billnelson.senate.gov/services/nominations.cfm">Academy nominations &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/services/casework.cfm">Constituent casework &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/services/flags.cfm">Flag requests &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/services/grants2011.cfm">Grants &raquo;</a></div>
+                        <div><a href="http://billnelson.senate.gov/services/smallbusiness.cfm">Small Business &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/services/internships.cfm">Internships &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/services/touring.cfm">Touring DC &raquo;</a></div>
+					</div>
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">ISSUES</a>
+						
+                        
+                            <div><a href="http://billnelson.senate.gov/issues/economy/index.cfm">Economy &raquo;</a></div>
+                        
+                        
+                        
+                        
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">LEGISLATION</a>
+						<div><a href="http://billnelson.senate.gov/legislation/index.cfm#sponsored">Bills sponsored &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/legislation/index.cfm#voting">Voting record &raquo;</a></div>
+					</div>
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">NEWS</a>
+						<div><a href="http://billnelson.senate.gov/news/ebriefs.cfm">e-Briefs &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/news/hottopics.cfm">Hot topics &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/news/media.cfm">Media releases &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/news/columns.cfm">Published columns &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/news/speeches.cfm">Speeches &amp; statements &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/news/archive.cfm">Article Archive &raquo;</a></div>
+					</div>
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">FLORIDA</a>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#colleges">Colleges &amp; universities &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#government">Government &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#history">History &amp; culture &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#licenses">Licenses &amp; permits &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#maps">Maps &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#nascar">Nascar racetracks &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#nature">Nature preserves &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#media">Media/medios &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#prosports">Professional sports &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/florida/index.cfm#tourist">Tourist information &raquo;</a></div>
+					</div>
+                    <div><a href="javascript:;" onclick="P7_TMenu(this);return false">ABOUT BILL</a>
+						<div><a href="http://billnelson.senate.gov/about/biography.cfm">Biography &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/about/career.cfm">Career highlights &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/about/committees.cfm">Committees &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/about/photos/index.cfm">Photo Gallery &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/about/introduction.cfm">Introduction &raquo;</a></div>
+						<div><a href="http://billnelson.senate.gov/about/printable.cfm">Printable photos &raquo;</a></div>
+					</div>
+					<div class="ebriefs"><a href="http://billnelson.senate.gov/news/ebriefs.cfm">STAY UP TO DATE<br />WITH E-BRIEFS</a></div>
+					<div><a href="http://billnelson.senate.gov/contact/index.cfm">&nbsp;</a></div>
+				</div>
+			</div> 
+			
+
+			
+		</td>
+		<td width="457" id="centerCol" valign="top">		  <div id="landHeader"><img src="/images/int/h/contact.jpg" alt="Contact Bill" width="457" height="52" border="0" /></div>
+			
+			
+			<table id="subHeader" width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td id="crumbs"><a href="../index.cfm" title="Back to home page">home</a> &raquo; <a href="email.cfm">contact bill: send an email</a></td>
+					<td id="fontSize"><!-- size: A &gt; A  --></td>
+					<td id="printView"><!-- print:  --></td>
+				</tr>
+			</table>
+			
+			
+			
+			<div id="primaryContent">
+              
+
+
+	
+
+
+
+
+
+	
+	
+	
+		
+	
+
+ 	
+		
+	
+		
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	<h2>Thank You</h2><p>Thank you for sending me an email. I appreciate receiving your input.</p><input name="CCMS_STATE" type="hidden" value="true"><input name="FRIENDLY_PREFIX" type="hidden" value="Prefix"><input name="FRIENDLY_SUBJECT" type="hidden" value="Subject"><input name="RE" type="hidden" value="issue"><input name="LAST" type="hidden" value="Smith"><input name="EMAIL" type="hidden" value="demandprogressoutreach@yahoo.com"><input name="CCMS_ISSUE" type="hidden" value="true"><input name="CCMS_PREFIX" type="hidden" value="true"><input name="FRIENDLY_STATE" type="hidden" value="State"><input name="CCMS_ADDR2" type="hidden" value="true"><input name="FRIENDLY_ADDR2" type="hidden" value="Street Address 2"><input name="FRIENDLY_COMMENTS" type="hidden" value="Comments"><input name="PREFIX" type="hidden" value="Mr."><input name="FRIENDLY_ADDR1" type="hidden" value="Street Address"><input name="ADDR1" type="hidden" value="12 Main St"><input name="CCMS_EMAIL" type="hidden" value="true"><input name="PHONE" type="hidden" value="571-336-2637"><input name="CCMS_ZIP" type="hidden" value="true"><input name="ZIP" type="hidden" value="32422"><input name="FRIENDLY_EMAIL" type="hidden" value="Email Address"><input name="SUBJECT" type="hidden" value="Testing"><input name="FRIENDLY_CITY" type="hidden" value="City"><input name="CCMS_CITY" type="hidden" value="true"><input name="FRIENDLY_RE" type="hidden" value="Contact type"><input name="FRIENDLY_PHONE" type="hidden" value="Phone"><input name="FIRST" type="hidden" value="James"><input name="CCMS_FIRST" type="hidden" value="true"><input name="ISSUE" type="hidden" value="Other"><input name="CITY" type="hidden" value="Franklin"><input name="FRIENDLY_LAST" type="hidden" value="Last Name"><input name="CCMS_ADDR1" type="hidden" value="true"><input name="ADDR2" type="hidden" value=""><input name="STATE" type="hidden" value="FL"><input name="CCMS_LAST" type="hidden" value="true"><input name="FRIENDLY_ISSUE" type="hidden" value="Topic"><input name="EMAILDESTINATION" type="hidden" value="QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo="><input name="CCMS_PHONE" type="hidden" value="true"><input name="FRIENDLY_FIRST" type="hidden" value="First Name"><input name="CCMS_RE" type="hidden" value="true"><input name="FRIENDLY_ZIP" type="hidden" value="Zip"><input name="COMMENTS" type="hidden" value="Testing"></form>
+
+
+
+			  <p>&nbsp;</p>
+			</div>
+			
+			
+	  </td>
+		<td width="150" id="rightCol" valign="top">
+			
+			
+				
+				<div id="blkSearch">
+					
+					<table width="124" height="52" border="0" cellspacing="0" cellpadding="0">
+						<tr><td height="10"></td></tr>
+					</table>
+				</div>
+				
+				
+
+			<div id="faq">
+				<p>&nbsp;</p>
+			</div>
+			
+		</td>
+	</tr>
+</table>
+
+
+
+
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" id="footer" summary="footer">
+    <tr bordercolor="#6A7249">
+        <td width="160"><a href="/contact/">Contact Bill</a></td>
+        <td width="160"><a href="/florida/">Florida</a></td>
+        <td width="160"><a href="/search/useful.cfm">Useful links</a></td>
+        <td width="160"><a href="/search/utiles.cfm">Recursos &uacute;tiles</a></td>
+        <td width="160"><a href="http://billnelson.senate.gov/#">Home</a></td>
+    </tr>
+ </table>
+ 
+ <!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2012 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.1  -->
+<!-- Created: 12/12/2012 4:08:22 PM -->
+<script src="/wt_sdc/nelson_webtrends.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc1.senate.gov/dcst4cb9i00000c50t2y5cwez_6n8n/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.billnelson.senate.gov"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+
+
+
+</body>
+</html>

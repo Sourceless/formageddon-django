@@ -1,0 +1,11 @@
+Member: http://www.cantwell.senate.gov/public/index.cfm/email-maria, Status: Thanked
+Member: http://www.murray.senate.gov/public/index.cfm/contactme, Status: Thanked
+Member: http://carper.senate.gov/public/index.cfm/email-senator-carper, Status: Thanked
+Member: http://www.coons.senate.gov/contact/, Status: Thanked
+Member: http://www.baldwin.senate.gov/contact.cfm, Status: failed.  exception occurred HTTP Error 404: Not Found
+Member: http://www.ronjohnson.senate.gov/public/index.cfm/contact, Status: Thanked
+Member: http://www.manchin.senate.gov/public/index.cfm/contact-form, Status: Thanked
+Member: http://www.rockefeller.senate.gov/public/index.cfm/email-jay, Status: Thanked
+Member: http://www.hirono.senate.gov/contact.cfm, Status: failed.  exception occurred HTTP Error 404: Not Found
+Member: http://www.schatz.senate.gov/contact.cfm, Status: Thanked
+Member: http://billnelson.senate.gov/contact/email.cfm, Status: Thanked

@@ -1,0 +1,2293 @@
+<base href="http://www.durbin.senate.gov/public/index.cfm/contact"/><!DOCTYPE html> 
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Contact Dick Durbin - U.S. Senator Dick Durbin</title>
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="http://www.durbin.senate.gov/public/_skins/durbin/js/pngfix.js"></script>
+    <![endif]-->
+	<title>TITLE</title>
+    <script type="text/javascript" src="http://www.durbin.senate.gov/public/_skins/durbin/js/mootools.js"></script>
+    <script type="text/javascript" src="http://www.durbin.senate.gov/public/_skins/durbin/js/slidemenu.js"></script>
+	<script type="text/javascript">
+    	function fadeIn(variable) {
+    		$('fadeDiv'+variable).fade('in');
+    	};
+    	function fadeOut(variable) {
+    		$('fadeDiv'+variable).fade('out'); 
+    	};
+    	function menuDrop(menuFx) {
+    		menuFx.start('height','345px');
+    	}
+    	function fadeToggler() {
+    		this.fade('toggle');
+    	}
+    	function fadeCoverer(){
+    		$$('.fadeCover').each(function(fader) {
+    			var newId = fader.get('id');
+    			newId = newId.split("Cover");
+    			newId = newId[1];
+    			if(newId != openAccordion) {
+    				fader.fade('in');
+    			};				
+    		});
+    	}
+    	function accordionFader(el) {
+    			var fadeOut = el.getFirst('.fadeCover');
+    			fadeCoverer();
+    			fadeOut.fade('out');
+    	}
+    	window.addEvent('domready', function() { 
+    		if($(document.body).hasClass('page_home')) {
+   			    $(document.body).setStyle('background-image', 'url(http://www.durbin.senate.gov/public/_skins/durbin/images/backgrounds/home.'+$random(1, 4)+'.jpg)');
+	    		openAccordion = 1;
+	    		var menuDropper = new Fx.Tween($('mainMenuDrop'), {transition: 'bounce:out', duration: 'long', link: 'cancel'});
+//	    		var mainMenuHinter = fadeToggler.periodical(4000, $('mainMenuHint'));
+	    		var topAlertHinter = fadeToggler.periodical(5000, $('topAlert'));
+	    		var mainMenu = new BySlideMenu('accordionMenu', {
+	    			expandMode: 'click', 
+   					compressSize: 45,
+	    			pinMode: 'click',
+	    			defaultIndex: 1,
+	    			autoSize: false,
+	    			containerWidth: 960,
+	    			containerHeight: 340
+	    			});
+	    		$$('.accordionItem .content').fade('out');
+	    		$('content1').fade('in');
+	    		$('fadeCover'+openAccordion).fade('out');
+	    		$('ht1').addEvent('mouseenter', function(){fadeOut(1);});
+	    		$('ht1').addEvent('mouseleave', function(){fadeIn(1);});
+	    		$('ht2').addEvent('mouseenter', function(){fadeOut(2);});
+	    		$('ht2').addEvent('mouseleave', function(){fadeIn(2);});
+	    		$('ht3').addEvent('mouseenter', function(){fadeOut(3);});
+	    		$('ht3').addEvent('mouseleave', function(){fadeIn(3);});
+	    		$('htP4').addEvent('mouseenter', function(){fadeOut(4);});
+	    		$('htP4').addEvent('mouseleave', function(){fadeIn(4);});
+	    		$('htP5').addEvent('mouseenter', function(){fadeOut(5);});
+	    		$('htP5').addEvent('mouseleave', function(){fadeIn(5);});
+	    		$('htP6').addEvent('mouseenter', function(){fadeOut(6);});
+	    		$('htP6').addEvent('mouseleave', function(){fadeIn(6);});
+	    		$('htP7').addEvent('mouseenter', function(){fadeOut(7);});
+	    		$('htP7').addEvent('mouseleave', function(){fadeIn(7);});
+	    		$('htP8').addEvent('mouseenter', function(){fadeOut(8);});
+	    		$('htP8').addEvent('mouseleave', function(){fadeIn(8);});
+	    		$$('.followButton').set('opacity','.6');
+				$$('.followButton').addEvent('mouseenter', function(){this.fade('in');});
+				$$('.followButton').addEvent('mouseleave', function(){this.fade('.6');});
+	    		$('frontMainMenu').addEvent('mouseenter', function(){menuDropper.start('height','255px');});
+	    		$('frontMainMenu').addEvent('mouseleave', function(){menuDropper.start('height','0px');});
+	    		$('accordionMenu').addEvent('mouseleave',function(){fadeCoverer();});
+	    		$$('.accordionItem').addEvent('mouseenter', function(){accordionFader(this);});
+	    		$$('.accordionItem').addEvent('click', function(){
+	    			// !make into function
+	    			var number = this.get('id');
+	    			var id = number.split("Elm");
+	    			if(id[1] == openAccordion) {
+	    				openAccordion = null;
+	    			} else {
+	    				openAccordion = id[1];
+	    			}
+	    			$$('.accordionItem .content').fade('out');
+	    			$$('.fadeCover').fade('in');
+	    			$('fadeCover'+id[1]).fade('out');
+	    			$('content'+id[1]).fade('toggle'); 
+	    		});
+	    	}
+	    	else {
+		    //	var subMenuSlide = new Fx.Slide($$('leftSubMenu'), {
+			//		transition: 'sine:in',
+			//		duration: 300,
+ 			//
+			//	});
+	    		$('field_3ee4f58c-efe7-4231-9850-d77bf2eea106').addEvent('focus', function(){if(this.value=='email@address.com'){this.value=''};});
+	    		$('field_3ee4f58c-efe7-4231-9850-d77bf2eea106').addEvent('blur', function(){if(this.value==''){this.value='email@address.com'};});
+	    	}
+    		$('headerSearchInput').addEvent('focus', function(){if(this.value=='search...'){this.value=''};});
+    		$('headerSearchInput').addEvent('blur', function(){if(this.value==''){this.value='search...'};});
+    	});
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="/public/_resources/stylesheets/print.css" media="print" />
+	<link rel="stylesheet" type="text/css" href="/public/_resources/stylesheets/mobile.css" media="handheld" />
+	
+	
+    <link href="http://www.durbin.senate.gov/public/_skins/durbin/css/main.css" rel="stylesheet" type="text/css">
+	
+	<link rel="alternate" type="application/rss+xml" href="http://www.durbin.senate.gov/public/index.cfm/rss/feed" title="Latest Posts" />
+</head>
+<body class="page_contact fuseaction_pages_view circuit_circuit fuse_fuse locale_en_us" id="contact">
+		<div id='middle'>
+			<div id='header'>
+				<div id='headerSearch'>
+					<form name="googlesearch" method="get" action="/public/index.cfm/search">
+	 	 				<input type="text" id='headerSearchInput' name="q" size="25" value="search..." />
+						<input name="btnG" type="hidden" id="go" value="Go" />
+	 		 			<input type="hidden" name="site" value="durbin" />					
+						<input type="hidden" name="num" value="10" />
+						<input type="hidden" name="filter" value="0" />
+						<input name="p" type="hidden" value="Search" />
+					</form>
+
+				</div>
+				<a href="http://www.durbin.senate.gov/public/index.cfm/home">
+					<div id='headerMasthead'>
+						<img src='http://www.durbin.senate.gov/public/_skins/durbin/images/header/mastheadSenate.gif' id='headerSenate'>
+						<img src='http://www.durbin.senate.gov/public/_skins/durbin/images/header/mastheadDurbin.png'>
+					</div>
+				</a>
+			</div>
+			<a name="Top"></a>
+			
+			<div class="leftContainer">
+				<div class="leftMainMenu"> 
+					
+						<div class="section submenu">
+							<div class="nav">
+									<div class="mainMenuTitle">Main Menu</div>
+								
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+									<ul>
+										
+										<li id="nav_home" class="odd first"><a href="http://www.durbin.senate.gov/public/index.cfm/">Home</a></li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_about even">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/about">About Dick Durbin</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+										 
+										
+										<li class="nav_illinoisinfocenter odd">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/illinoisinfocenter">Illinois Info Center</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_constituentservices even">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/constituentservices">Constituent Services</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_issueslegislation odd">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/issueslegislation">Issues and Legislation</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_legislativeagenda even">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/legislativeagenda">Legislative Agenda</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_press odd">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/press">Press Office</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_multimedia even">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/multimedia">Multimedia Archives</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+										 
+										
+										<li class="nav_illinoisprojects odd">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/illinoisprojects">Illinois Investments</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_inyourcommunity even">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/inyourcommunity">In Your Community</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+										 
+										
+										<li class="nav_todayonthesenatefloor odd">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/todayonthesenatefloor">Today in the Senate</a>
+																	
+										</li>
+										
+										
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+										
+											
+												
+											
+												
+											
+												
+											
+										 
+										
+										<li class="nav_contact even last">
+										<a href="http://www.durbin.senate.gov/public/index.cfm/contact">Contact Dick Durbin</a>
+												<div class="leftSubMenu" id="leftSubMenu_contact">
+													
+													<ul><li class="first"><a href="http://www.durbin.senate.gov/public/index.cfm/flagrequest">Request a Flag</a></li><li><a href="http://www.durbin.senate.gov/public/index.cfm/tourrequest">Request a Tour</a></li><li class="last"><a href="http://www.durbin.senate.gov/public/index.cfm/casework">Casework Guidelines</a></li></ul>
+													
+													
+												</div>											
+																	
+										</li>
+										
+									</ul>
+		
+							</div>
+						</div>
+					
+				</div>
+				<div class="eNewsletter">
+					<div class="mainMenuTitle">E-Newsletter</div>
+					<form method="post" class="uniForm" action="/public/index.cfm/enewsletter-signup">
+					<input type="hidden" name="IsPosted" value="true" />
+					<a name="form_e26c0a40-7c98-4ab9-a927-93ccacf2727d"></a>
+					<input type="hidden" name="Form_id" value="e26c0a40-7c98-4ab9-a927-93ccacf2727d" />
+					<div class="eNewsletterForm" id="field_3ee4f58c-efe7-4231-9850-d77bf2eea106_container">
+					<input type="text" class="textInput" name="field_3ee4f58c-efe7-4231-9850-d77bf2eea106" id="field_3ee4f58c-efe7-4231-9850-d77bf2eea106" value="email@address.com"/>
+					</div>			
+					<div id="Subscription_id_e26c0a40-7c98-4ab9-a927-93ccacf2727d_container"> 
+					<input type="hidden" name="Subscription_id_e26c0a40-7c98-4ab9-a927-93ccacf2727d" id="Subscription_id_e26c0a40-7c98-4ab9-a927-93ccacf2727d_1" value="77e958c1-95c2-4f75-afaf-2cc45eee8682" /> 
+					</div> 
+					<div>
+					<input type="submit" value="Click to Subscribe" />
+					</div>
+					</form>
+				</div>
+			</div>
+			<div class="pageContent">
+				<div class="pagegroup pagegroup_forms odd first">
+				
+					
+				
+			
+<div class="element element_forms">
+
+<div class="section">
+	
+
+	<div class="forms">
+		<div class="form odd first last">
+
+
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+	
+
+	
+
+	
+		
+	
+
+	
+	
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+		
+	
+
+
+
+
+
+
+
+		
+		
+		
+		
+	
+
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+		
+				
+		
+			
+		
+		
+			
+					
+						
+						
+						
+					
+				
+			
+			
+			
+			
+			
+			
+				
+			
+			
+			
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+	
+		
+		
+	
+		
+		
+		
+			
+		
+		
+		
+		
+		
+	
+			
+		
+		
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+<a name="form_83d7e5cb-7c90-4ec9-a3fd-a52df0b4eb22"></a>
+
+<script type="text/javascript">
+jQuery("document").ready(function() {
+	location.hash="form_83d7e5cb-7c90-4ec9-a3fd-a52df0b4eb22";
+});
+</script>
+
+
+	<h4>Contact Dick Durbin</h4>
+
+
+<p>Thank you for contacting Senator Durbin.</p>
+<p>&nbsp;</p>
+<p>Your comments and feedback are always welcome and appreciated.</p>
+<p>&nbsp;</p>
+<p>You can also keep in touch with Senator Durbin on <a href="http://twitter.com/SenatorDurbin" target="_blank" style="color: #85c2ff;">Twitter</a>, <a href="http://facebook.com/SenatorDurbin" target="_blank" style="color: #85c2ff;">Facebook</a>, <a href="http://youtube.com/SenatorDurbin" target="_blank" style="color: #85c2ff;">YouTube</a>, and <a href="http://flickr.com/senatordurbin" target="_blank" style="color: #85c2ff;">Flickr</a>.</p>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+</div>
+
+</div>
+</div><div class="pagegroup pagegroup_textblocks even">
+<div class="element element_textblocks">
+
+<div class="section">
+
+
+
+	<div class="article">
+	
+	<p>&nbsp;</p>
+<p>REMINDER: If you are writing to request assistance with a federal agency, a signed <a href="http://durbin.senate.gov/public/index.cfm?a=Files.Serve&amp;File_id=eb32c838-6b11-42e4-97da-52d18c88cbd9">Privacy Act Release Form</a> is required. Failure to fax or mail this form may result in delayed response to your inquiry.</p>
+	</div>
+
+</div>
+
+</div>
+
+
+</div><div class="pagegroup pagegroup_developeractions odd">
+<div class="element element_developeractions"><div class="actionsList">
+
+
+</div></div>
+</div><div class="pagegroup pagegroup_links even">
+<div class="element element_links">
+<div class="section">
+	
+		<div class="header"><h1>Relevant Links</h1></div>
+	
+	
+		<ul>
+			
+				<li class="odd first">
+				
+						<h3 class="title"><a href="http://durbin.senate.gov/public/index.cfm?p=flagRequest" class="link">Request a Flag</a></h3>
+						
+						
+					
+				</li>
+			
+				<li class="even">
+				
+						<h3 class="title"><a href="http://durbin.senate.gov/public/index.cfm?p=tourRequest" class="link">Request a Tour</a></h3>
+						
+						
+					
+				</li>
+			
+				<li class="odd last">
+				
+						<h3 class="title"><a href="http://durbin.senate.gov/public/index.cfm?p=casework" class="link">Casework Guidelines</a></h3>
+						
+						
+					
+				</li>
+			
+		</ul>
+	
+</div>
+</div>
+</div><div class="pagegroup pagegroup_files odd last">
+<div class="element element_files">
+	<div class="section">
+		
+		<div class="header"><h1>Relevant Files</h1></div>
+	
+		
+			<ul class="files">
+			
+				<li class="document pdf odd first last">
+					Privacy Act Release Form
+					
+					(<a href="http://www.durbin.senate.gov/public/index.cfm/files/serve?File_id=eb32c838-6b11-42e4-97da-52d18c88cbd9">Download <span style="text-transform:uppercase;">pdf</a></span>)
+				</li>
+			
+			</ul>
+		
+	</div>
+</div>
+</div>
+					<div class="shareThis">
+					<span class="shareText">Share this page:</span>
+					<div id="shareButtons">
+					
+						 
+										
+						
+					
+					
+					
+						
+					
+						<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww%2Edurbin%2Esenate%2Egov%2Fpublic%2Findex%2Ecfm%2Fcontact&t=Contact%20Dick%20Durbin%20%2D%20U%2ES%2E%20Senator%20Dick%20Durbin" target="_blank"><img src="http://www.durbin.senate.gov/public/_skins/durbin/images//share/facebook_32.png"></a>
+						<a href="http://twitter.com/share?url=http://www.durbin.senate.gov/public/index.cfm/contact&text=Contact%20Dick%20Durbin%20%2D%20U%2ES%2E%20Senator%20Dick%20Durbin" target="_blank"><img src="http://www.durbin.senate.gov/public/_skins/durbin/images//share/twitter_32.png"></a>
+						<a href="mailto:?subject=Contact%20Dick%20Durbin%20%2D%20U%2ES%2E%20Senator%20Dick%20Durbin&body=http://www.durbin.senate.gov/public/index.cfm/contact"><img src="http://www.durbin.senate.gov/public/_skins/durbin/images//share/email_32.png"></a>
+					</div>
+				</div>
+
+			</div>
+								
+
+
+
+
+
+	<div class="offices">
+    	<span>Office Locations</span>
+		<div id="officeList"><ul>
+<li>
+    		<strong>WASHINGTON, D.C.</strong><br />711 Hart Senate Bldg.<br />
+    		Washington, DC 20510<br />
+    		9 am to 6 pm ET<br />
+    		(202) 224-2152 - phone<br />
+    		(202) 228-0400 - fax<br /><br />
+    	</li>
+<li>
+    		<strong>CHICAGO</strong><br />
+    		230 S Dearborn St.<br />
+    		Suite 3892<br />
+    		Chicago, IL 60604<br />
+    		8:30 am to 5 pm<br />
+    		(312) 353-4952 - phone<br />
+    		(312) 353-0150 - fax</li>
+<li>
+    		<strong>SPRINGFIELD</strong><br />
+    		525 South 8th St.<br />
+    		Springfield, IL 62703<br />
+    		8:30 am to 5 pm<br />
+    		(217) 492-4062 - phone<br />
+    		(217) 492-4382 - fax<br /><br />
+    	</li>
+<li>	
+    		<strong>CARBONDALE</strong><br />
+    		250 W. Cherry Street<br />
+    		Suite 115-D<br />
+    		Carbondale, IL 62901<br />
+    		8:30 am to 5 pm<br />
+    		(618) 351-1122 - phone<br />
+    		(618) 351-1124 - fax
+    	</li>
+<li>	
+    		<strong>ROCK ISLAND</strong><br />
+    		1504 Third Avenue<br />
+    		Suite 227<br />
+    		Rock Island, IL 61201<br />
+    		8:30 am to 4:30 pm<br />
+    		(309) 786-5173 - phone<br />
+(309) 786-5404 - fax
+</li>
+</ul></div>
+	</div>
+			<div id="footer">
+				<div id="footerLinks">
+					<ul><li class="first"><a href="http://www.durbin.senate.gov/public/index.cfm/privacy-policy">Privacy Policy</a></li><li><a href="http://www.durbin.senate.gov/public/index.cfm/footer-contact">Contact Dick Durbin</a></li><li class="last"><a href="http://www.durbin.senate.gov/public/index.cfm/site-map">Site Map</a></li></ul>			
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	
+
+
+		
+		
+			
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-20266759-1");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+			
+		
+			</script>
+			
+		
+		<!-- START OF SmartSource Data Collector TAG --> 
+		<!-- Copyright (c) 1996-2012 Webtrends Inc. All rights reserved. --> 
+		<!-- Version: 9.4.0 --> 
+		<!-- Tag Builder Version: 4.1 --> 
+		<!-- Created: 12/12/2012 4:17:05 PM --> 
+		<script src="/wt_sdc/durbin_webtrends.js" type="text/javascript"></script> 
+		<!-- ----------------------------------------------------------------------------------- --> 
+		<!-- Warning: The two script blocks below must remain inline. Moving them to an external --> 
+		<!-- JavaScript include file can cause serious problems with cross-domain tracking. --> 
+		<!-- ----------------------------------------------------------------------------------- --> 
+		<script type="text/javascript"> 
+		//<![CDATA[ 
+		var _tag=new WebTrends(); 
+		_tag.dcsGetId(); 
+		//]]> 
+		</script> 
+		<script type="text/javascript"> 
+		//<![CDATA[ 
+		_tag.dcsCustom=function(){ 
+		// Add custom parameters here. 
+		//_tag.DCSext.param_name=param_value; 
+		} 
+		_tag.dcsCollect(); 
+		//]]> 
+		</script> 
+		<noscript> 
+		<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc1.senate.gov/dcspvwatz00000gk63o96i0fz_2i8x/njs.gif?dcsuri=/nojavascript&WT.js=No&WT.tv=9.4.0&dcssip=www.durbin.senate.gov"/></div> 
+		</noscript> 
+		<!-- END OF SmartSource Data Collector TAG -->
+	</body>
+</html>
