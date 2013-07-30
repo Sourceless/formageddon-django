@@ -1,0 +1,2277 @@
+Validating models...
+
+0 errors found
+Django version 1.4.5, using settings 'formageddon.settings'
+Development server is running at http://ec2-54-227-23-254.compute-1.amazonaws.com:8000/
+Quit the server with CONTROL-C.
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representativ[28/Jul/2013 23:44:10] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+[28/Jul/2013 23:44:13] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[28/Jul/2013 23:44:13] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[28/Jul/2013 23:44:13] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[28/Jul/2013 23:44:13] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[28/Jul/2013 23:44:13] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[28/Jul/2013 23:44:13] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:44:13] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+e, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all contr[28/Jul/2013 23:45:11] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+[28/Jul/2013 23:45:12] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[28/Jul/2013 23:45:12] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[28/Jul/2013 23:45:12] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[28/Jul/2013 23:45:13] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:45:13] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:45:13] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[28/Jul/2013 23:45:14] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+ols
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=S[28/Jul/2013 23:45:54] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+ubmit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2[28/Jul/2013 23:46:12] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:46:12] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:46:13] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:46:14] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:46:14] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[28/Jul/2013 23:46:14] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[28/Jul/2013 23:46:15] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[28/Jul/2013 23:46:15] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[28/Jul/2013 23:46:15] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[28/Jul/2013 23:46:15] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[28/Jul/2013 23:46:16] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29[28/Jul/2013 23:48:44] "GET /contact_sen?last_name=nelson HTTP/1.1" 500 70764
+[28/Jul/2013 23:48:52] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+[28/Jul/2013 23:48:52] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[28/Jul/2013 23:48:53] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[28/Jul/2013 23:48:53] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[28/Jul/2013 23:48:53] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[28/Jul/2013 23:48:53] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[28/Jul/2013 23:48:53] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:48:53] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:48:53] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:48:53] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:48:54] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[28/Jul/2013 23:48:55] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[28/Jul/2013 23:48:55] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[28/Jul/2013 23:48:56] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[28/Jul/2013 23:48:56] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[28/Jul/2013 23:48:56] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://billnelson.senate.gov/contact/email.cfm
+Loop  1 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+index form
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[*, issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol False
+in fill_form, filling all
+Printing all controls
+control:  Re  type:  select
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[, *issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+Loop  2 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[*, Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[*, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military, Native American Issues, Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>> 
+ End form 2 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  Prefix  type:  select
+control:  First  type:  text
+control:  Last  type:  text
+control:  Addr1  type:  text
+control:  Addr2  type:  text
+control:  City  type:  text
+control:  State  type:  select
+control:  Zip  type:  text
+control:  Phone  type:  text
+control:  Email  type:  text
+control:  Issue  type:  select
+control:  Subject  type:  text
+control:  Comments  type:  textarea
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[, *Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=James)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=Smith)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=57 Suffolk St)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=Holyoke)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=01040)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=571-336-2637)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military, Native American Issues, [28/Jul/2013 23:48:57] "GET /contact_sen?last_name=billnelson HTTP/1.1" 200 23303
+[28/Jul/2013 23:48:57] "GET /css/default.css HTTP/1.1" 404 2002
+[28/Jul/2013 23:48:58] "GET /global/p7tmscripts.js HTTP/1.1" 404 2020
+[28/Jul/2013 23:48:58] "GET /css/p7tmbasic.css HTTP/1.1" 404 2008
+[28/Jul/2013 23:48:58] "GET /contactform/styles/styles.css HTTP/1.1" 404 2044
+[28/Jul/2013 23:48:58] "GET /global/default.js HTTP/1.1" 404 2008
+[28/Jul/2013 23:48:58] "GET /wt_sdc/nelson_webtrends.js HTTP/1.1" 404 2035
+[28/Jul/2013 23:48:58] "GET /images/int/h/contact.jpg HTTP/1.1" 404 2029
+[28/Jul/2013 23:48:58] "GET /contactform/styles/styles.css HTTP/1.1" 404 2044
+[28/Jul/2013 23:49:02] "GET /wt_sdc/nelson_webtrends.js HTTP/1.1" 404 2035
+[28/Jul/2013 23:49:02] "GET /wt_sdc/nelson_webtrends.js HTTP/1.1" 404 2035
+[28/Jul/2013 23:49:02] "GET /images/int/h/contact.jpg HTTP/1.1" 404 2029
+Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, *Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=Testing)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=Testing)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://billnelson.senate.gov/contact/email.cfm
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d[28/Jul/2013 23:50:08] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25923
+[28/Jul/2013 23:50:08] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[28/Jul/2013 23:50:08] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[28/Jul/2013 23:50:08] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[28/Jul/2013 23:50:08] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[28/Jul/2013 23:50:08] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:50:09] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:50:09] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[28/Jul/2013 23:50:09] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[28/Jul/2013 23:50:09] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[28/Jul/2013 23:50:10] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 00:14:43] "GET /contact_sen?last_name=stevens HTTP/1.1" 500 70778
+[29/Jul/2013 00:14:49] "GET /contact_sen?last_name=tedstevens HTTP/1.1" 500 70820
+[29/Jul/2013 00:14:55] "GET /contact_sen?last_name=tedstephens HTTP/1.1" 500 70834
+[29/Jul/2013 00:15:00] "GET /contact_sen?last_name=stephens HTTP/1.1" 500 70792
+60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.paul.senate.gov/?p=contact
+Loop  1 :
+http://www.paul.senate.g[29/Jul/2013 00:15:27] "GET /contact_sen?last_name=paul HTTP/1.1" 200 61801
+[29/Jul/2013 00:15:27] "GET /css/reset.css HTTP/1.1" 404 1996
+[29/Jul/2013 00:15:27] "GET /css/text.css HTTP/1.1" 404 1993
+[29/Jul/2013 00:15:28] "GET /css/960.css HTTP/1.1" 404 1990
+[29/Jul/2013 00:15:28] "GET /css/global.css?2 HTTP/1.1" 404 2001
+[29/Jul/2013 00:15:28] "GET /js/niftycube/niftyCorners.css HTTP/1.1" 404 2044
+[29/Jul/2013 00:15:28] "GET /css/paul.css?2 HTTP/1.1" 404 1995
+[29/Jul/2013 00:15:28] "GET /css/map-base.css HTTP/1.1" 404 2005
+[29/Jul/2013 00:15:28] "GET /js/yui/build/tabview/assets/skins/sam/tabview.css HTTP/1.1" 404 2104
+[29/Jul/2013 00:15:28] "GET /css/backgrounds.css?9 HTTP/1.1" 404 2016
+[29/Jul/2013 00:15:28] "GET /css/print.css?1 HTTP/1.1" 404 1998
+[29/Jul/2013 00:15:28] "GET /css/map.css?9 HTTP/1.1" 404 1992
+[29/Jul/2013 00:15:28] "GET /js/yui/build/yahoo-dom-event/yahoo-dom-event.js HTTP/1.1" 404 2098
+[29/Jul/2013 00:15:28] "GET /js/yui/build/utilities/utilities.js HTTP/1.1" 404 2062
+[29/Jul/2013 00:15:28] "GET /js/yui/build/tabview/tabview-min.js HTTP/1.1" 404 2062
+[29/Jul/2013 00:15:28] "GET /js/yui/build/cookie/cookie-min.js HTTP/1.1" 404 2056
+[29/Jul/2013 00:15:28] "GET /js/fontresizer.js?2 HTTP/1.1" 404 2010
+[29/Jul/2013 00:15:28] "GET /js/global.js?2 HTTP/1.1" 404 1995
+[29/Jul/2013 00:15:28] "GET /js/map.js?2 HTTP/1.1" 404 1986
+[29/Jul/2013 00:15:28] "GET /wt_sdc/paul_webtrends.js HTTP/1.1" 404 2029
+[29/Jul/2013 00:15:28] "GET /CFFileServlet/_cf_captcha/_captcha_img5927525466193336606.png HTTP/1.1" 404 2140
+[29/Jul/2013 00:15:28] "GET /images/clear.gif HTTP/1.1" 404 2005
+ov/?p=contact 
+
+textareaform
+captcha found
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.cruz.senate.gov/contact.cfm
+Loop  1 :
+http://www.cruz.senate.gov/contact.cfm 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.cruz.senate.gov/contact.cfm  now 
+<thisForm POST http://www.cruz.senate.gov/webformActionVoiceV2.cfm application/x-www-form-urlencoded
+  <HiddenControl(issuesHash=252C37FAD631A9966C479F047F32B949) (readonly)>
+  <HiddenControl(Prefix_required=Please back up and enter your Prefix.) (readonly)>
+  <SelectControl(Prefix=[*, Mr., Mrs., Ms., Mr. and Mrs., Dr., Dr. and Mrs., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <HiddenControl(firstName_required=Please enter your First Name.) (readonly)>
+  <TextControl(firstName=)>
+  <HiddenControl(lastName_required=Please enter your last name.) (readonly)>
+  <TextControl(lastName=)>
+  <HiddenControl(Address1_required=Please enter your street address.) (readonly)>
+  <TextControl(Address1=)>
+  <TextControl(Address2=)>
+  <HiddenControl(City_required=Please enter your City.) (readonly)>
+  <TextControl(city=)>
+  <HiddenControl(State_required=Please back up and enter your State.) (readonly)>
+  <SelectControl(State=[ , AA, AE, AP,  , AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, *TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Zip_required=Please enter your zip code in the format 12345 or 12345-1234.) (readonly)>
+  <TextControl(zip=)>
+  <HiddenControl(phone_required=Please enter your Phone Number.) (readonly)>
+  <TextControl(phone=)>
+  <HiddenControl(Email_required=Please enter your email address.  Your email address must contain both ) (readonly)>
+  <TextControl(email=)>
+  <HiddenControl(Subject_required=Please select the topic of your message.) (readonly)>
+  <SelectControl(Subject=[*, Abortion, Adoption, Aging, Agriculture, Animal Welfare, Appropriations, Banking, Campaign Finance, Children, Civil Rights, Commerce, Communications, Congratulations, Congressional Issues, Crime, Defense, Drugs, Economy, Education Higher, Education K through 12, Elections, Energy, Environment, Family, Food Stamps, Foreign Affairs, Gun Control, Health, Homeland Security, Housing, Immigration, Inauguration, Insurance Health, Insurance Other, Interior, Iran, Iraq, Judiciary, Labor, Medicaid, Medicare, Military, NASA, Nutrition, Other, Patents, Pensions, Securities, Small Business, Social Security, Taxes, Tobacco, Trade, Transportation, Veterans, Welfare, Women's Issues])>
+  <HiddenControl(messageSubject_required=Please enter the subject of the message.) (readonly)>
+  <TextControl(messageSubject=)>
+  <TextareaControl(MessageBody=)>
+  <SubmitControl(<None>=Submit) (readonly)>
+  <IgnoreControl(<None>=<None>)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  Prefix  type:  select
+control:  firstName  type:  text
+control:  lastName  type:  text
+control:  Address1  type:  text
+control:  Address2  type:  text
+control:  city  type:  text
+control:  State  type:  select
+control:  zip  type:  text
+control:  phone  type:  text
+control:  email  type:  text
+control:  Subject  type:  select
+control:  messageSubject  type:  text
+control:  MessageBody  type:  textarea
+f filled and ready to submit to  http://www.cruz.senate.gov/contact.cfm 
+<thisForm POST http://www.cruz.senate.gov/webformActionVoiceV2.cfm application/x-www-form-urlencoded
+  <HiddenControl(issuesHash=252C37FAD631A9966C479F047F32B949) (readonly)>
+  <HiddenControl(Prefix_required=Ple[29/Jul/2013 00:15:49] "GET /contact_sen?last_name=cruz HTTP/1.1" 200 329
+[29/Jul/2013 00:15:55] "GET /contact.cfm HTTP/1.1" 404 1990
+[29/Jul/2013 00:16:18] "GET /contact_sen?last_name=pelosi HTTP/1.1" 500 70764
+[29/Jul/2013 00:16:43] "GET /contact_sen?last_name=kennedy HTTP/1.1" 500 70778
+[29/Jul/2013 00:16:49] "GET /contact_sen?last_name=tedkennedy HTTP/1.1" 500 70820
+[29/Jul/2013 00:16:53] "GET /contact_sen?last_name=tedkenedy HTTP/1.1" 500 70806
+ase back up and enter your Prefix.) (readonly)>
+  <SelectControl(Prefix=[, *Mr., Mrs., Ms., Mr. and Mrs., Dr., Dr. and Mrs., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <HiddenControl(firstName_required=Please enter your First Name.) (readonly)>
+  <TextControl(firstName=James)>
+  <HiddenControl(lastName_required=Please enter your last name.) (readonly)>
+  <TextControl(lastName=Smith)>
+  <HiddenControl(Address1_required=Please enter your street address.) (readonly)>
+  <TextControl(Address1=57 Suffolk St)>
+  <TextControl(Address2=)>
+  <HiddenControl(City_required=Please enter your City.) (readonly)>
+  <TextControl(city=Holyoke)>
+  <HiddenControl(State_required=Please back up and enter your State.) (readonly)>
+  <SelectControl(State=[ , AA, AE, AP,  , AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Zip_required=Please enter your zip code in the format 12345 or 12345-1234.) (readonly)>
+  <TextControl(zip=01040)>
+  <HiddenControl(phone_required=Please enter your Phone Number.) (readonly)>
+  <TextControl(phone=571-336-2637)>
+  <HiddenControl(Email_required=Please enter your email address.  Your email address must contain both ) (readonly)>
+  <TextControl(email=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(Subject_required=Please select the topic of your message.) (readonly)>
+  <SelectControl(Subject=[, Abortion, Adoption, Aging, Agriculture, Animal Welfare, Appropriations, Banking, Campaign Finance, Children, Civil Rights, Commerce, Communications, Congratulations, Congressional Issues, Crime, Defense, Drugs, Economy, Education Higher, Education K through 12, Elections, Energy, Environment, Family, Food Stamps, Foreign Affairs, Gun Control, Health, Homeland Security, Housing, Immigration, Inauguration, Insurance Health, Insurance Other, Interior, Iran, Iraq, Judiciary, Labor, Medicaid, Medicare, Military, NASA, Nutrition, Other, Patents, Pensions, Securities, Small Business, Social Security, Taxes, Tobacco, Trade, Transportation, Veterans, Welfare, *Women's Issues])>
+  <HiddenControl(messageSubject_required=Please enter the subject of the message.) (readonly)>
+  <TextControl(messageSubject=Testing)>
+  <TextareaControl(MessageBody=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>
+  <IgnoreControl(<None>=<None>)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.cruz.senate.gov/contact.cfm
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.warren.senate.gov/?p=email_senator
+Loop  1 :
+http://www.warren.senate.gov/?p=email_senator 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.warren.senate.gov/?p=email_senator  now 
+<thisForm POST http://www.warren.senate.gov/?p=email_senator&clear_cache=1 application/x-www-form-urlencoded
+  <HiddenControl(issuesHash=6C2F7DD25D1B7F3975006C53FD40D226) (readonly)>
+  <HiddenControl(form_type=email_elizabeth) (readonly)>
+  <HiddenControl(Prefix_required=Please back up and enter your Prefix.) (readonly)>
+  <SelectControl(Prefix=[*Mr., Mrs., Ms., Mr. and Mrs., Miss, Dr., Dr. and Mrs., Dr. and Mr., Admiral, Captain, Chief Master Sergeant, Colonel, Commander, Corporal, Father, Lieutenant, Lieutenant Colonel, Master Sergeant, Reverend, Sergeant, Second Lieutenant, ergeant Major, Sister, Technical Sergeant])>
+  <HiddenControl(firstName_required=Please enter your First Name.) (readonly)>
+  <TextControl(firstName=)>
+  <HiddenControl(lastName_required=Please enter your last name.) (readonly)>
+  <TextControl(lastName=)>
+  <HiddenControl(Address1_required=Please enter your street address.) (readonly)>
+  <TextControl(Address1=)>
+  <TextControl(Address2=)>
+  <HiddenControl(city_required=Please enter your City.) (readonly)>
+  <TextControl(city=)>
+  <HiddenControl(State_required=Please back up and enter your State.) (readonly)>
+  <SelectControl(State=[ , AA, AE, AP,  , AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, MT, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(zip_required=Please enter your zip code in the format 12345 or 12345-1234.) (readonly)>
+  <TextControl(zip=)>
+  <HiddenControl(phone_required=Please enter your Phone Number.) (readonly)>
+  <TextControl(phone=)>
+  <HiddenControl(email_required=Please enter your Email Address.  Your Email Address must contain both '.' and '@') (readonly)>
+  <TextControl(email=)>
+  <HiddenControl(vemail_required=Please verify your email address.) (readonly)>
+  <TextControl(vemail=)>
+  <HiddenControl(Subject_required=Please select the topic of your message.) (readonly)>
+  <SelectControl(Subject=[*, Abortion, Adoption/Foster Care, Aging, Agriculture, Animal Welfare, Antitrust/Competition, Appropriations, Arts and Culture, Banking, Budget, Campaign Finance, Child Care/Child Welfare, Civil Rights, Commerce, Consumer Protection, Crime And Justice, Defense and Military, Disability, Domestic Violence, Drugs (Illegal), Economy, Education - Early Childhood, Education - Elementary and Secondary, Education - Post-Secondary, Energy, Environment, Flag Requests, Food Safety, Foreign Affairs, Grants, Guns, Health, Historical Preservation, Homeland Security, Housing, Immigration, Intellectual Property, Job Training, Judicial Nominations, Judiciary, Labor and Unions, Medicaid/Medicare, Meeting Request, Municipal and State Government, Native Americans, Natural Disasters, Pensions and Retirement, Postal Issues, Science/Technology/Space, Small Business, Social Security, Start-Ups and Entrepreneurs, TANF and Low-Income Benefits, Taxes, Telecommunications, Tour Request, Trade, Transportation and Infrastructure, Unemployment Insurance, Veterans, Women's Issues])>
+  <HiddenControl(messageSubject_required=Please enter the subject of the message.) (readonly)>
+  <TextControl(messageSubject=)>
+  <HiddenControl(MessageBody_required=Please enter a message.) (readonly)>
+  <TextareaControl(MessageBody=)>
+  <SubmitControl(Submit=Submit) (readonly)>
+  <IgnoreControl(Clear=<None>)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  Prefix  type:  select
+control:  firstName  type:  text
+control:  lastName  type:  text
+control:  Address1  type:  text
+control:  Address2  type:  text
+control:  city  type:  text
+control:  State  type:  select
+control:  zip  type:  text
+control:  phone  type:  text
+control:  email  type:  text
+control:  vemail  type:  text
+control:  Subject  type:  select
+control:  messageSubject  type:  text
+control:  MessageBody  type:  textarea
+control:  Clear  type:  button
+f filled and ready to submit to  http://www.warren.senate.gov/?p=email_senator 
+<thisForm POST http://www.warren.senate.gov/?p=email_senator&clear_cache=1 application/x-www-form-urlencoded
+  <HiddenControl(issuesHash=6C2F7DD25D1B7F3975006C53FD40D226) (readonly)>
+  <HiddenControl(form_type=email_elizabeth) (readonly)>
+  <HiddenControl(Prefix_required=Please back up and enter your Prefix.) (readonly)>
+  <SelectControl(Prefix=[*Mr., Mrs., Ms., Mr. and Mrs., Miss, Dr., Dr. and Mrs., Dr. and Mr., Admiral, Captain, Chief Master Sergeant, Colonel, Commander, Corporal, Father, Lieutenant, Lieutenant Colonel, Master Sergeant, Reverend, Sergeant, Second Lieutenant, ergeant Major, Sister, Technical Sergeant])>
+  <HiddenControl(firstName_required=Please enter your First Name.) (readonly)>
+  <TextControl(firstName=James)>
+  <HiddenControl(lastName_required=Please enter your last name.) (readonly)>
+  <TextControl(lastName=Smith)>
+  <HiddenControl(Address1_required=Please enter your street address.) (readonly)>
+  <TextControl(Address1=57 Suffolk St)>
+  <TextControl(Address2=)>
+  <HiddenControl(city_required=Please enter your City.) (readonly)>
+  <TextControl(city=Holyoke)>
+  <HiddenControl(State_required=Please back up and enter your State.) (readonly)>
+  <SelectControl(State=[ , AA, AE, AP,  , AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, MT, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(zip_required=Please enter your zip code in the format 12345 or 12345-1234.) (readonly)>
+  <TextControl(zip=01040)>
+  <HiddenControl(phone_required=Please enter your Phone Number.) (readonly)>
+  <TextControl(phone=571-336-2637)>
+  <HiddenControl(email_required=Please enter your Email Address.  Your Email Address must contain both '.' and '@') (readonly)>
+  <TextControl(email=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(vemail_required=Please verify your email address.) (readonly)>
+  <TextControl(vemail=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(Subject_required=Please select the topic of your message.) (readonly)>
+  <SelectControl(Subject=[, Abortion, Adoption/Foster Care, Aging, Agriculture, Animal Welfare, Antitrust/Competition, Appropriations, Arts and Culture, Banking, Budget, Campaign Finance, Child Care/Child Welfare, Civil Rights, Commerce, Consumer Protection, Crime And Justice, Defense and Military, Disability, Domestic Violence, Drugs (Illegal), Economy, Education - Early Childhood, Education - Elementary and Secondary, Education - Post-Secondary, Energy, Environment, Flag Requests, Food Safety, Foreign Affairs, Grants, Guns, Health, Historical Preservation, Homeland Security, Housing, Immigration, Intellectual Property, Job Training, Judicial Nominations, Judiciary, Labor and Unions, Medicaid/Medicare, Meeting Request, Municipal and State Government, Native Americans, Natural Disasters, Pensions and Retirement, Postal Issues, Science/Technology/Space, Small Business, Social Security, Start-Ups and Entrepreneurs, TANF and Low-Income Benefits, Taxes, Telecommunications, Tour Request, Trade, Transportation and Infrastructure, Unemployment Insurance, Veterans, *Women's Issues])>
+  <HiddenControl(messageSubject_required=Please enter the subject of the message.) (readonly)>
+  <TextControl(messageSubject=Testing)>
+  <HiddenControl(MessageBody_required=Please enter a message.) (readonly)>
+  <TextareaControl(MessageBody=Testing)>
+  <SubmitControl(Submit=Submit) (readonly)>
+  <IgnoreControl(Clear=<None>)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thank[29/Jul/2013 00:17:10] "GET /contact_sen?last_name=warren HTTP/1.1" 200 24954
+[29/Jul/2013 00:17:10] "GET /css/reset.css HTTP/1.1" 404 1996
+[29/Jul/2013 00:17:10] "GET /css/text.css HTTP/1.1" 404 1993
+[29/Jul/2013 00:17:10] "GET /css/960.css HTTP/1.1" 404 1990
+[29/Jul/2013 00:17:10] "GET /css/global.css?1 HTTP/1.1" 404 2001
+[29/Jul/2013 00:17:10] "GET /js/niftycube/niftyCorners.css HTTP/1.1" 404 2044
+[29/Jul/2013 00:17:10] "GET /js/yui/build/tabview/assets/skins/sam/tabview.css HTTP/1.1" 404 2104
+[29/Jul/2013 00:17:10] "GET /css/warren.css?v21 HTTP/1.1" 404 2003
+[29/Jul/2013 00:17:10] "GET /css/map-base.css?v21 HTTP/1.1" 404 2009
+[29/Jul/2013 00:17:10] "GET /css/backgrounds.css HTTP/1.1" 404 2014
+[29/Jul/2013 00:17:10] "GET /css/print.css?v21 HTTP/1.1" 404 2000
+[29/Jul/2013 00:17:10] "GET /wt_sdc/warren_webtrends.js HTTP/1.1" 404 2035
+[29/Jul/2013 00:17:10] "GET /js/adapt.min.js HTTP/1.1" 404 2002
+[29/Jul/2013 00:17:10] "GET /js/yui/build/utilities/utilities.js HTTP/1.1" 404 2062
+[29/Jul/2013 00:17:10] "GET /js/yui/build/tabview/tabview-min.js HTTP/1.1" 404 2062
+[29/Jul/2013 00:17:10] "GET /js/yui/build/cookie/cookie-min.js HTTP/1.1" 404 2056
+[29/Jul/2013 00:17:10] "GET /js/fontresizer.js HTTP/1.1" 404 2008
+[29/Jul/2013 00:17:10] "GET /js/global.js?v21 HTTP/1.1" 404 1997
+[29/Jul/2013 00:17:11] "GET /js/warren_sen_tag1.js HTTP/1.1" 404 2020
+[29/Jul/2013 00:17:11] "GET /js/sen_tag2.js HTTP/1.1" 404 1999
+[29/Jul/2013 00:17:11] "GET /images/clear.gif HTTP/1.1" 404 2005
+[29/Jul/2013 00:18:47] "GET /contact_sen?last_name=Feinstein HTTP/1.1" 500 70806
+ed, done with  http://www.warren.senate.gov/?p=email_senator
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.feinstein.senate.gov/public/index.cfm/e-mail-me
+Loop  1 :
+https://www.feinstein.senate.gov/public/index.cfm/e-mail-me 
+
+textareaform
+no captcha found
+going to fill_form from  https://www.feinstein.senate.gov/public/index.cfm/e-mail-me  now 
+<POST https://www.feinstein.senate.gov/public/index.cfm/e-mail-me application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=771f98e4-236a-4cab-b9c2-5a4e7e993948) (readonly)>
+  <SelectControl(field_9444dbc2-bbe1-469d-9b8f-ab10eb838284=[*, Mr., Miss, Mrs., Ms., Mr. and Mrs., Dr., Mr. and Mr., Mrs. and Mrs.])>
+  <TextControl(field_0c5a1392-6512-4fa5-a213-eb7e1cbaf1ad=)>
+  <TextControl(field_ac791fc0-5e57-4f5e-88d4-6ef9e730f470=)>
+  <TextControl(field_844e2e93-7496-4372-bb04-d0cf157684f0=)>
+  <TextControl(field_289b92dd-13e8-40e7-b141-1a02c6acdcea=)>
+  <TextControl(field_c44b713c-04ad-411a-9744-6e7f2ff71898=)>
+  <SelectControl(field_1c62db7f-a03b-4bc1-ae3f-816c2ec96b89=[AL, AK, AZ, AR, *CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_64d2124b-a227-4f90-ad83-65dbc8175a69=)>
+  <TextControl(field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b=)>
+  <CheckboxControl(field_9646e227-e72f-46de-8968-fa935dbe442d=[usps])>
+  <RadioControl(field_a3ffd5e3-91d9-4394-8aa0-52c160f1a94c=[foreclosure assist])>
+  <RadioControl(field_302e8a41-000d-419e-991e-40c7cb96f97c=[Abortion.Hlth, ag, Anim, BF, Budget, Civil Liberties, Comm, Def, Economy, Ed, Eng, Env, FA, Gay, Govt, Jud.Gun Control, Hlth, Homeland Security, Hous, Hmn, Immig, Indian, Intelligence Committ, Intern, Jud, Lab, Medicare.Medicaid, Science, SSec, Tax, Trade, Trans, USPS, Vet, Water.Env])>
+  <TextareaControl(field_130638f0-2eec-4c6b-83be-11e83bb5ced3=)>
+  <CheckboxControl(field_d9957c6c-c947-4802-92d4-f0ac28dd4b72=[*NEWSLETTER])>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_9444dbc2-bbe1-469d-9b8f-ab10eb838284  type:  select
+control:  field_0c5a1392-6512-4fa5-a213-eb7e1cbaf1ad  type:  text
+control:  field_ac791fc0-5e57-4f5e-88d4-6ef9e730f470  type:  text
+control:  field_844e2e93-7496-4372-bb04-d0cf157684f0  type:  text
+control:  field_289b92dd-13e8-40e7-b141-1a02c6acdcea  type:  text
+control:  field_c44b713c-04ad-411a-9744-6e7f2ff71898  type:  text
+control:  field_1c62db7f-a03b-4bc1-ae3f-816c2ec96b89  type:  select
+control:  field_64d2124b-a227-4f90-ad83-65dbc8175a69  type:  text
+control:  field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b  type:  text
+control:  field_9646e227-e72f-46de-8968-fa935dbe442d  type:  checkbox
+control:  field_a3ffd5e3-91d9-4394-8aa0-52c160f1a94c  type:  radio
+control:  field_302e8a41-000d-419e-991e-40c7cb96f97c  type:  radio
+control:  field_130638f0-2eec-4c6b-83be-11e83bb5ced3  type:  textarea
+control:  field_d9957c6c-c947-4802-92d4-f0ac28dd4b72  type:  checkbox
+f filled and ready to submit to  https://www.feinstein.senate.gov/public/index.cfm/e-mail-me 
+<POST https://www.feinstein.senate.gov/public/index.cfm/e-mail-me application/x[29/Jul/2013 00:19:02] "GET /contact_sen?last_name=feinstein HTTP/1.1" 200 22003
+[29/Jul/2013 00:19:05] "GET /wt_sdc/feinstein_webtrends.js HTTP/1.1" 404 2044
+[29/Jul/2013 00:19:05] "GET /wt_sdc/feinstein_webtrends.js HTTP/1.1" 404 2044
+-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=771f98e4-236a-4cab-b9c2-5a4e7e993948) (readonly)>
+  <SelectControl(field_9444dbc2-bbe1-469d-9b8f-ab10eb838284=[, *Mr., Miss, Mrs., Ms., Mr. and Mrs., Dr., Mr. and Mr., Mrs. and Mrs.])>
+  <TextControl(field_0c5a1392-6512-4fa5-a213-eb7e1cbaf1ad=James)>
+  <TextControl(field_ac791fc0-5e57-4f5e-88d4-6ef9e730f470=Smith)>
+  <TextControl(field_844e2e93-7496-4372-bb04-d0cf157684f0=57 Suffolk St)>
+  <TextControl(field_289b92dd-13e8-40e7-b141-1a02c6acdcea=)>
+  <TextControl(field_c44b713c-04ad-411a-9744-6e7f2ff71898=Holyoke)>
+  <SelectControl(field_1c62db7f-a03b-4bc1-ae3f-816c2ec96b89=[AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_64d2124b-a227-4f90-ad83-65dbc8175a69=01040)>
+  <TextControl(field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b=demandprogressoutreach@yahoo.com)>
+  <CheckboxControl(field_9646e227-e72f-46de-8968-fa935dbe442d=[usps])>
+  <RadioControl(field_a3ffd5e3-91d9-4394-8aa0-52c160f1a94c=[foreclosure assist])>
+  <RadioControl(field_302e8a41-000d-419e-991e-40c7cb96f97c=[Abortion.Hlth, ag, Anim, BF, Budget, Civil Liberties, Comm, Def, Economy, Ed, Eng, Env, FA, Gay, Govt, Jud.Gun Control, Hlth, Homeland Security, Hous, Hmn, Immig, Indian, Intelligence Committ, Intern, Jud, Lab, Medicare.Medicaid, Science, SSec, Tax, Trade, Trans, USPS, Vet, Water.Env])>
+  <TextareaControl(field_130638f0-2eec-4c6b-83be-11e83bb5ced3=Testing)>
+  <CheckboxControl(field_d9957c6c-c947-4802-92d4-f0ac28dd4b72=[*NEWSLETTER])>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.feinstein.senate.gov/public/index.cfm/e-mail-me
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3[29/Jul/2013 10:02:32] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 10:02:32] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 10:02:32] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 10:02:32] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://billnelson.senate.gov/contact/email.cfm
+Loop  1 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+index form
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[*, issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol False
+in fill_form, filling all
+Printing all controls
+control:  Re  type:  select
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[, *issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+Loop  2 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[*, Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[*, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military, Native American Issues, Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>> 
+ End form 2 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  Prefix  type:  select
+control:  First  type:  text
+control:  Last  type:  text
+control:  Addr1  type:  text
+control:  Addr2  type:  text
+control:  City  type:  text
+control:  State  type:  select
+control:  Zip  type:  text
+control:  Phone  type:  text
+control:  Email  type:  text
+control:  Issue  type:  select
+control:  Subject  type:  text
+control:  Comments  type:  textarea
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[, *Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=James)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=Smith)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=57 Suffolk St)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=Holyoke)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=01040)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=571-336-2637)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military[29/Jul/2013 10:02:33] "GET /contact_sen?last_name=billnelson HTTP/1.1" 200 23303
+[29/Jul/2013 10:02:33] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 10:02:33] "GET /css/p7tmbasic.css HTTP/1.1" 404 2008
+[29/Jul/2013 10:02:33] "GET /contactform/styles/styles.css HTTP/1.1" 404 2044
+[29/Jul/2013 10:02:33] "GET /css/default.css HTTP/1.1" 404 2002
+[29/Jul/2013 10:02:33] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 10:02:33] "GET /global/p7tmscripts.js HTTP/1.1" 404 2020
+[29/Jul/2013 10:02:33] "GET /global/default.js HTTP/1.1" 404 2008
+[29/Jul/2013 10:02:33] "GET /wt_sdc/nelson_webtrends.js HTTP/1.1" 404 2035
+[29/Jul/2013 10:02:33] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 10:02:34] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 10:02:36] "GET /images/int/h/contact.jpg HTTP/1.1" 404 2029
+[29/Jul/2013 10:02:36] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+, Native American Issues, Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, *Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=Testing)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=Testing)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://billnelson.senate.gov/contact/email.cfm
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8[29/Jul/2013 10:05:07] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 10:05:07] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 10:05:07] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 10:05:07] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 10:05:07] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 10:05:07] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 10:05:07] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 10:05:07] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 10:05:08] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://billnelson.senate.gov/contact/email.cfm
+Loop  1 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+index form
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[*, issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol False
+in fill_form, filling all
+Printing all controls
+control:  Re  type:  select
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<index POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Re=[, *issue, agency])>
+  <HiddenControl(Friendly_Re=Contact type) (readonly)>
+  <HiddenControl(CCMS_Re=true) (readonly)>
+  <HiddenControl(NextStep=Re) (readonly)>
+  <HiddenControl(Check_Re=required,) (readonly)>
+  <ImageControl(<None>=)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+Loop  2 :
+http://www.billnelson.senate.gov/contact/email.cfm 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.billnelson.senate.gov/contact/email.cfm  now 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[*, Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[*, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military, Native American Issues, Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>> 
+ End form 2 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  Prefix  type:  select
+control:  First  type:  text
+control:  Last  type:  text
+control:  Addr1  type:  text
+control:  Addr2  type:  text
+control:  City  type:  text
+control:  State  type:  select
+control:  Zip  type:  text
+control:  Phone  type:  text
+control:  Email  type:  text
+control:  Issue  type:  select
+control:  Subject  type:  text
+control:  Comments  type:  textarea
+f filled and ready to submit to  http://www.billnelson.senate.gov/contact/email.cfm 
+<issue POST http://www.billnelson.senate.gov/contact/email.cfm application/x-www-form-urlencoded
+  <SelectControl(Prefix=[, *Mr., Mr. and Mrs., Mrs., Ms., Dr.])>
+  <HiddenControl(Friendly_Prefix=Prefix) (readonly)>
+  <HiddenControl(CCMS_Prefix=true) (readonly)>
+  <HiddenControl(EmailDestination=QzRGLkNGIyk8Tlo1WCFfRj5DSz1YRFJKODI8RkVCMj8sVTtGNkg6WCNHXVQoSSNIIAo=) (readonly)>
+  <HiddenControl(Check_Prefix=required,) (readonly)>
+  <TextControl(First=James)>
+  <HiddenControl(Friendly_First=First Name) (readonly)>
+  <HiddenControl(CCMS_First=true) (readonly)>
+  <HiddenControl(Check_First=required,) (readonly)>
+  <TextControl(Last=Smith)>
+  <HiddenControl(Friendly_Last=Last Name) (readonly)>
+  <HiddenControl(CCMS_Last=true) (readonly)>
+  <HiddenControl(Check_Last=required,) (readonly)>
+  <TextControl(Addr1=57 Suffolk St)>
+  <HiddenControl(Friendly_Addr1=Street Address) (readonly)>
+  <HiddenControl(CCMS_Addr1=true) (readonly)>
+  <HiddenControl(Check_Addr1=required,) (readonly)>
+  <TextControl(Addr2=)>
+  <HiddenControl(Friendly_Addr2=Street Address 2) (readonly)>
+  <HiddenControl(CCMS_Addr2=true) (readonly)>
+  <TextControl(City=Holyoke)>
+  <HiddenControl(Friendly_City=City) (readonly)>
+  <HiddenControl(CCMS_City=true) (readonly)>
+  <HiddenControl(Check_City=required,) (readonly)>
+  <SelectControl(State=[AL, AK, APO, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <HiddenControl(Friendly_State=State) (readonly)>
+  <HiddenControl(CCMS_State=true) (readonly)>
+  <HiddenControl(Check_State=required,) (readonly)>
+  <TextControl(Zip=01040)>
+  <HiddenControl(Friendly_Zip=Zip) (readonly)>
+  <HiddenControl(CCMS_Zip=true) (readonly)>
+  <HiddenControl(Check_Zip=required,) (readonly)>
+  <TextControl(Phone=571-336-2637)>
+  <HiddenControl(Friendly_Phone=Phone) (readonly)>
+  <HiddenControl(CCMS_Phone=true) (readonly)>
+  <TextControl(Email=demandprogressoutreach@yahoo.com)>
+  <HiddenControl(Friendly_Email=Email Address) (readonly)>
+  <HiddenControl(CCMS_Email=true) (readonly)>
+  <HiddenControl(Check_Email=required,) (readonly)>
+  <SelectControl(Issue=[, Abortion, Academy, Aging, Agriculture, Animal Welfare, Arts, Banking, Broadcast  Regulations, Budget, Business, Casework, Children's Health Insurance, Constitutional Issues, Consumer Protection, Courts, Crime, Defense, Domestic Wiretaps, Economy, Education, Energy, Environment, Everglades Restoration, FEMA/Natural Disasters, Government Reform, Elections, Flag Requests, Foreign Relations, Gun Control, Health, Homeland Security, Housing, Immigration, Import Safety, Intelligence, Invitations, Iraq, Judicial Nominations, Labor, Medicare/Medicaid, National Parks, Pensions, Photograph Requests, Port Security, Prescription Drugs, Privacy, Property Insurance, Military, Native American Issues, Social Security, Social Services/Welfare, Space, Stem Cell Research, Taxes, Telecommunications, Tour Request, Trade, Transportation, Veterans, Womens Issues, *Other])>
+  <HiddenControl(Friendly_Issue=Topic) (readonly)>
+  <HiddenControl(CCMS_Issue=true) (readonly)>
+  <HiddenControl(Check_Issue=required,) (readonly)>
+  <TextControl(Subject=Testing)>
+  <HiddenControl(Friendly_Subject=Subject) (readonly)>
+  <HiddenControl(Check_Subject=required,) (readonly)>
+  <TextareaControl(Comments=Testing)>
+  <HiddenControl(Friendly_Comments=Comments) (readonly)>
+  <HiddenControl(Check_Comments=required,) (readonly)>
+  <ImageControl(<None>=)>
+  <HiddenControl(CCMS_RE=true) (readonly)>
+  <HiddenControl(RE=issue) (readonly)>
+  <HiddenControl(FRIENDLY_RE=Contact type) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://billnelson.senate.gov/contact/email.cfm[29/Jul/2013 10:05:16] "GET /contact_sen?last_name=billnelson HTTP/1.1" 200 23303
+[29/Jul/2013 10:05:16] "GET /global/p7tmscripts.js HTTP/1.1" 404 2020
+[29/Jul/2013 10:05:16] "GET /css/p7tmbasic.css HTTP/1.1" 404 2008
+[29/Jul/2013 10:05:16] "GET /contactform/styles/styles.css HTTP/1.1" 404 2044
+[29/Jul/2013 10:05:16] "GET /css/default.css HTTP/1.1" 404 2002
+[29/Jul/2013 10:05:16] "GET /global/default.js HTTP/1.1" 404 2008
+[29/Jul/2013 10:05:16] "GET /wt_sdc/nelson_webtrends.js HTTP/1.1" 404 2035
+[29/Jul/2013 10:05:17] "GET /images/int/h/contact.jpg HTTP/1.1" 404 2029
+
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk S[29/Jul/2013 11:09:06] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 11:09:06] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 11:09:06] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 11:09:06] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 11:09:06] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 11:09:06] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 11:09:06] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 11:09:07] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 11:09:07] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+t )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  fi[29/Jul/2013 11:23:01] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 11:23:02] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 11:23:02] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 11:23:02] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 11:23:02] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 11:23:02] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 11:23:02] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 11:23:02] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 11:23:02] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+eld_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----M[29/Jul/2013 13:01:10] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 13:01:11] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 13:01:11] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 13:01:11] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 13:01:11] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 13:01:11] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 13:01:11] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 13:01:11] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 13:01:11] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+ilitary----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e0[29/Jul/2013 14:13:16] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 14:13:16] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 14:13:16] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 14:13:16] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 14:13:16] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 14:13:16] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 14:13:17] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 14:13:17] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 14:13:17] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+5-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  t[29/Jul/2013 16:09:25] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 16:09:25] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 16:09:25] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 16:09:25] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 16:09:25] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 16:09:25] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 16:09:26] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 16:09:26] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 16:09:26] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 16:09:26] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 16:09:27] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+ype:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL,[29/Jul/2013 16:12:02] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 16:12:02] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 16:12:02] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 16:12:02] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 16:12:02] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 16:12:03] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 16:12:03] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 16:12:03] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 16:12:03] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+ AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field[29/Jul/2013 17:40:11] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 17:40:11] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 17:40:11] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 17:40:11] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 17:40:11] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 17:40:11] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 17:40:11] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 17:40:12] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 17:40:12] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[*, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=)>
+  <SubmitControl(<None>=Submit) (readonly)>> 
+ End form 1 
+
+in fill_form, filling name
+in fill_form, filling addr
+in fill_form, filling phone
+in fill_form, filling textarea
+filled textareacontrol True
+in fill_form, filling all
+Printing all controls
+control:  field_8ce97650-0fb4-4175-ae29-ca0848365a3e  type:  select
+control:  field_f14022b2-ce41-4b48-baaa-3ea936d0dc49  type:  text
+control:  field_b1cbecaf-fa94-47ce-8e08-413af45c40a3  type:  text
+control:  field_d9fc9586-2976-4549-af04-9cb756a4ccf6  type:  text
+control:  field_e593f76a-3be3-4e[29/Jul/2013 20:00:38] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 20:00:38] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 20:00:38] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 20:00:38] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 20:00:38] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 20:00:38] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 20:00:38] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 20:00:38] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
+[29/Jul/2013 20:00:39] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+05-8b68-fd4c067eea76  type:  text
+control:  field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745  type:  text
+control:  field_d8006472-32dd-437c-8e3a-9ec6919a1200  type:  select
+control:  field_d612f7d3-c97e-40b4-9525-a3fb97965c23  type:  text
+control:  field_34077b89-d0f0-42cf-a62e-26a3cdefeab8  type:  text
+control:  field_ab8ae0e8-b62d-4418-9580-df08d60934cd  type:  text
+control:  field_502cc83d-39f8-415e-8205-061f1b2f23fa  type:  select
+control:  field_7694661f-5de4-433e-8682-3972ebcf2e27  type:  text
+control:  field_5d0df2c0-8a69-4230-aab8-b0f872ceb818  type:  textarea
+f filled and ready to submit to  http://www.rubio.senate.gov/public/index.cfm/contact 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[, *Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=James)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=Smith)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=57 Suffolk St )>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=Holyoke)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, *MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY])>
+  <TextControl(field_d612f7d3-c97e-40b4-9525-a3fb97965c23=01040)>
+  <TextControl(field_34077b89-d0f0-42cf-a62e-26a3cdefeab8=571-336-2637)>
+  <TextControl(field_ab8ae0e8-b62d-4418-9580-df08d60934cd=demandprogressoutreach@yahoo.com)>
+  <SelectControl(field_502cc83d-39f8-415e-8205-061f1b2f23fa=[, ----------------------------------------,----------------------------------------, AGR, BANK, BUD, BUS, COND, CONGRATS, CW, DEF, ECON, EDU, ENE, ENV, GENERAL, GOV, HEA, HOM, IA, IMM, INT, JUD, LAB, LEG, MED, MILP, OTH, SOC, SSEC, TAXES, TEL, TRA, TRADE, VET, *WEL])>
+  <TextControl(field_7694661f-5de4-433e-8682-3972ebcf2e27=Testing)>
+  <TextareaControl(field_5d0df2c0-8a69-4230-aab8-b0f872ceb818=Testing)>
+  <SubmitControl(<None>=Submit) (readonly)>>
+trying the next page
+Looking for errors in page 
+Looking for thank you in page: 
+thanked, done with  http://www.rubio.senate.gov/public/index.cfm/contact
+contact info object:
+<Storage {'city': 'Holyoke', 'dist': 'MA-01', 'full_msg': 'Testing', 'prefix': 'Mr.', 'email': 'demandprogressoutreach@yahoo.com', 'lname': 'Smith', 'phone': '571-336-2637', 'state': 'MA', 'addr2': '', 'fname': 'James', 'addr1': '57 Suffolk St', 'subject': 'Testing', 'id': 'jamesmith', 'zip5': '01040', 'zip4': '5015'}>
+In writerep_general, opening contact_link http://www.rubio.senate.gov/public/index.cfm/contact
+Loop  1 :
+http://www.rubio.senate.gov/public/index.cfm/contact 
+
+textareaform
+no captcha found
+going to fill_form from  http://www.rubio.senate.gov/public/index.cfm/contact  now 
+<POST http://www.rubio.senate.gov/public/index.cfm/contact application/x-www-form-urlencoded
+  <HiddenControl(IsPosted=true) (readonly)>
+  <HiddenControl(Form_id=a52d2670-5183-4901-9285-7ceda8bb2953) (readonly)>
+  <SelectControl(field_8ce97650-0fb4-4175-ae29-ca0848365a3e=[*, Mr., Ms., Mrs., Mr. and Mrs., Dr., Dr. and Mrs., Mr. and Dr., Reverend, Sister, Pastor, The Honorable, Representative, Senator])>
+  <TextControl(field_f14022b2-ce41-4b48-baaa-3ea936d0dc49=)>
+  <TextControl(field_b1cbecaf-fa94-47ce-8e08-413af45c40a3=)>
+  <TextControl(field_d9fc9586-2976-4549-af04-9cb756a4ccf6=)>
+  <TextControl(field_e593f76a-3be3-4e05-8b68-fd4c067eea76=)>
+  <TextControl(field_40d5d76f-f7f7-4d8b-bb9d-57bc5161e745=)>
+  <SelectControl(field_d8006472-32dd-437c-8e3a-9ec6919a1200=[----Military----,----States----, AA, AE, AP, AL, AK, AZ, AR, CA, CO, CT, DE, DC, *FL, GA, H[29/Jul/2013 21:20:24] "GET /contact_sen?last_name=rubio HTTP/1.1" 200 25844
+[29/Jul/2013 21:20:24] "GET /public/_resources/stylesheets/core.css HTTP/1.1" 404 2071
+[29/Jul/2013 21:20:24] "GET /public/_resources/stylesheets/print.css HTTP/1.1" 404 2074
+[29/Jul/2013 21:20:24] "GET /public/_resources/stylesheets/uni-form.css HTTP/1.1" 404 2083
+[29/Jul/2013 21:20:24] "GET /public/_resources/stylesheets/mobile.css HTTP/1.1" 404 2077
+[29/Jul/2013 21:20:24] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 21:20:24] "GET /public/_resources/jscripts/swfobject-2.1.js HTTP/1.1" 404 2086
+[29/Jul/2013 21:20:25] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 21:20:25] "GET /public/_resources/jscripts/uni-form.jquery.js HTTP/1.1" 404 2092
+[29/Jul/2013 21:20:25] "GET /public/_resources/jscripts/detectmobile.js HTTP/1.1" 404 2083
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_dc.png HTTP/1.1" 404 2104
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_orlando.png HTTP/1.1" 404 2119
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_miami.png HTTP/1.1" 404 2113
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_jacksonville.png HTTP/1.1" 404 2134
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_tampa.png HTTP/1.1" 404 2113
+[29/Jul/2013 21:20:26] "GET /public/_skins/rubio/images/template/map_bg_pensacola.png HTTP/1.1" 404 2125
