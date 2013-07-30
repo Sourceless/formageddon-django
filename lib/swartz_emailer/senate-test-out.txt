@@ -1,0 +1,3 @@
+Member: http://www.cantwell.senate.gov/public/index.cfm/email-maria, Status: Thanked
+Member: http://www.murray.senate.gov/public/index.cfm/contactme, Status: Failed.  reason unknown.
+Member: http://carper.senate.gov/public/index.cfm/email-senator-carper, Status: Failed.  reason unknown.
