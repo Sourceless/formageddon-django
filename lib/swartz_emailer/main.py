@@ -24,6 +24,8 @@ def senatetest():
         for member in sendb[state]:
             sen = web.lstrips(web.lstrips(web.lstrips(member, 'http://'), 'https://'), 'www.').split('.')[0]
             if sen in WYR_MANUAL: member = WYR_MANUAL[sen]
+            #if sen != 'billnelson': continue
+            #if sen in working + failure: continue
             print repr(sen)
             q = None
 
